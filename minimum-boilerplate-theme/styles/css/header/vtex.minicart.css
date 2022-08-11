@@ -1,0 +1,12 @@
+.openIconContainer :global(.vtex-button__label)::before{
+    content: "";
+    background-image: url(/arquivos/icon-car.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+
+.cartIcon{
+    display: none;
+}
