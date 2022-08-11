@@ -1,0 +1,173 @@
+{
+    "header-layout.desktop": {
+        "children": [
+            "flex-layout.row#top-banner",
+          "flex-layout.row#top-header",
+          "flex-layout.row#content-header"
+        ]
+      },
+
+      "flex-layout.row#top-header": {
+        "props": {
+            "blockClass": "top-header",
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#redes",
+            "login"
+        ]
+      },
+
+      "flex-layout.col#redes": {
+        "children": [
+            "flex-layout.row#redes"
+        ]
+      },
+
+      "flex-layout.row#redes": {
+        "children": [
+            "image#centro-ayuda",
+            "image#asistencia-web",
+            "image#tiendas",
+            "image#venta-telefonica",
+            "image#venta-empresas",
+            "image#mundo-experto"
+        ],
+        "props": {
+            "blockClass": ["top-banner-redes"],
+            "colSizing": "auto"
+        }
+      },
+
+      "image#centro-ayuda": {
+        "props": {
+            "blockClass":[
+                "redes"
+            ],
+            "src": "assets/CENTRO_DE_AYUDA.png",
+            "link": {
+                "openNewTab": true,
+                "url": "#"
+            },
+            "maxWidth": 150
+        }
+      },
+
+      "image#asistencia-web": {
+        "props": {
+            "blockClass":[
+                "redes"
+            ],
+            "src": "assets/ASISTENCIA_WEB.png",
+            "link": {
+                "openNewTab": true,
+                "url": "#"
+            },
+            "maxWidth": 150
+        }
+      },
+
+      "image#tiendas": {
+        "props": {
+            "blockClass":[
+                "redes"
+            ],
+            "src": "assets/TIENDAS.png",
+            "link": {
+                "openNewTab": true,
+                "url": "#"
+            },
+            "maxWidth": 150
+        }
+      },
+
+      "image#venta-telefonica": {
+        "props": {
+            "blockClass":[
+                "redes"
+            ],
+            "src": "assets/VENTA_TELEFONICA.webp",
+            "link": {
+                "openNewTab": true,
+                "url": "#"
+            },
+            "maxWidth": 150
+        }
+      },
+      
+      "image#venta-empresas": {
+        "props": {
+            "blockClass":[
+                "redes"
+            ],
+            "src": "assets/VENTA_EMPRESA.png",
+            "link": {
+                "openNewTab": true,
+                "url": "#"
+            },
+            "maxWidth": 150
+        }
+      },
+      
+      "image#mundo-experto": {
+        "props": {
+            "blockClass":[
+                "redes"
+            ],
+            "src": "assets/MUNDO_EXPERTO.webp",
+            "link": {
+                "openNewTab": true,
+                "url": "#"
+            },
+            "maxWidth": 150
+        }
+      },
+
+      "login": {
+        "props": {
+            "showIconProfile": true,
+            "iconLabel": "Mi cuenta",
+            "labelClasses": ["cuenta"]
+        }
+      },
+    
+      "flex-layout.row#content-header": {
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true,
+          "colSizing": "equal"
+        },
+        "children": [
+          "flex-layout.col#logo-desktop",
+          "search-bar",
+          "flex-layout.col#spacer",
+          "minicart.v2"
+        ]
+      },
+
+      "flex-layout.col#spacer": {
+        "props": {
+          "width": "grow"
+        }
+      },
+
+      "flex-layout.col#logo-desktop": {
+        "props": {
+          "verticalAlign": "middle"
+        },
+        "children": ["logo"]
+      },
+
+      "logo": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "assets/logo-easy.webp",
+          "width": "100"
+        }
+      }
+}

@@ -4,6 +4,55 @@
       "rich-text"
     ]
   },
+
+  "flex-layout.row#top-banner": {
+    "children": [
+      "slider-layout#top-banner"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["top-banner"]
+    }
+  },
+
+  "slider-layout#top-banner": {
+    "props": {
+      "fullWidth": true,
+      "blockClass":["top-banner"],
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 4000
+      },
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      }
+    },
+    "children": [
+      "image#top-banner-1",
+      "image#top-banner-2"
+    ]
+  },
+
+
+  "image#top-banner-1":{
+    "title": "Top banner image",
+    "props": {
+      "src": "assets/easy-Venta-telefonica.webp"
+    }
+  },
+
+  "image#top-banner-2":{
+    "title": "Top banner image",
+    "props": {
+      "src": "assets/Banner easy 11-15 Agosto.png"
+    }
+  },
+
   "rich-text": { 
     "props": { 
       "text": "VTEX Store Framework",

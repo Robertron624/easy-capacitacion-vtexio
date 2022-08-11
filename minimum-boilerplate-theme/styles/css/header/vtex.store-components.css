@@ -1,0 +1,24 @@
+.imageElement--redes{
+    width: 150px;
+}
+
+.searchBarContainer{
+    width: 40em;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix){ 
+    background-color: #da1714;
+    border-radius: 0;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+    height: 2.5rem;
+    border-radius: 0;
+}   
+
+.searchIcon{
+    color: white;
+}

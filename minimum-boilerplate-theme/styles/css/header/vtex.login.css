@@ -1,0 +1,26 @@
+.label{
+    text-transform: capitalize;
+}
+
+/* .label:hover{
+    color: #da1714;
+} */
+
+.container :global(.vtex-button__label)::before{
+    content: "";
+    background-image: url(/arquivos/icon-cuenta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.profileIcon{
+    display: none;
+}
+
+.container :global(.vtex-button):hover{
+    background-color: transparent;
+    color: #da1714;
+}
