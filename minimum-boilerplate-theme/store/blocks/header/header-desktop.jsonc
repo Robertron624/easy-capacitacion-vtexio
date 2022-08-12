@@ -201,6 +201,7 @@
           "fullWidth": true
         },
         "children": [
+          "menu#categorias",
           "rich-text#link-facil",
           "rich-text#link-tc-cencosud",
           "rich-text#link-catalogo"
