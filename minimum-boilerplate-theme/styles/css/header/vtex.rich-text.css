@@ -1,0 +1,18 @@
+.link{
+    text-decoration: none;
+    font-family: "Work-Sans", sans-serif;
+}
+
+.link--menu-link{
+    color: #dc2415;;
+}
+
+.image--menu-link{
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+}
+
+.paragraph{
+    display: flex;
+}

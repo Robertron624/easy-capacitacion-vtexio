@@ -3,7 +3,8 @@
         "children": [
             "flex-layout.row#top-banner",
           "flex-layout.row#top-header",
-          "flex-layout.row#content-header"
+          "flex-layout.row#content-header",
+          "flex-layout.row#menus-header"
         ]
       },
 
@@ -45,7 +46,7 @@
             "blockClass":[
                 "redes"
             ],
-            "src": "assets/CENTRO_DE_AYUDA.png",
+            "src": "assets/header/CENTRO_DE_AYUDA.png",
             "link": {
                 "openNewTab": true,
                 "url": "#"
@@ -59,7 +60,7 @@
             "blockClass":[
                 "redes"
             ],
-            "src": "assets/ASISTENCIA_WEB.png",
+            "src": "assets/header/ASISTENCIA_WEB.png",
             "link": {
                 "openNewTab": true,
                 "url": "#"
@@ -73,7 +74,7 @@
             "blockClass":[
                 "redes"
             ],
-            "src": "assets/TIENDAS.png",
+            "src": "assets/header/TIENDAS.png",
             "link": {
                 "openNewTab": true,
                 "url": "#"
@@ -87,7 +88,7 @@
             "blockClass":[
                 "redes"
             ],
-            "src": "assets/VENTA_TELEFONICA.webp",
+            "src": "assets/header/VENTA_TELEFONICA.webp",
             "link": {
                 "openNewTab": true,
                 "url": "#"
@@ -101,7 +102,7 @@
             "blockClass":[
                 "redes"
             ],
-            "src": "assets/VENTA_EMPRESA.png",
+            "src": "assets/header/VENTA_EMPRESA.png",
             "link": {
                 "openNewTab": true,
                 "url": "#"
@@ -115,7 +116,7 @@
             "blockClass":[
                 "redes"
             ],
-            "src": "assets/MUNDO_EXPERTO.webp",
+            "src": "assets/header/MUNDO_EXPERTO.webp",
             "link": {
                 "openNewTab": true,
                 "url": "#"
@@ -166,8 +167,115 @@
         "props": {
           "title": "Logo",
           "href": "/",
-          "url": "assets/logo-easy.webp",
+          "url": "assets/header/logo-easy.webp",
           "width": "100"
+        }
+      },
+
+      "flex-layout.row#menus-header":{
+        "title": "Menus header",
+        "props": {
+          "fullWidth": true,
+          "blockClass": "menus-header",
+          "colSizing": "auto"
+        },
+        "children": [
+          "flex-layout.col#menus-izquierda",
+          "flex-layout.col#menus-derecha"
+        ]
+      },
+
+      "flex-layout.col#menus-izquierda": {
+        "children": [
+          "flex-layout.row#menus-izquierda"
+        ],
+        "props": {
+          "blockClass": [
+            "left-menu"
+          ]
+        }
+      },
+
+      "flex-layout.row#menus-izquierda": {
+        "props": {
+          "fullWidth": true
+        },
+        "children": [
+          "rich-text#link-facil",
+          "rich-text#link-tc-cencosud",
+          "rich-text#link-catalogo"
+
+        ]
+      },
+
+      "rich-text#link-facil": {
+        "props": {
+          "text": "![easy](assets/header/icon-blog.png)[Hazlo fácil, Hazlo easy](/#)",
+          "blockClass":[
+            "menu-link"
+          ]
+        }
+      },
+      
+      "rich-text#link-tc-cencosud": {
+        "props": {
+          "text": "![tc-cenco](assets/header/icon-t-cenco.webp)[Tarjeta Cencosud](/#)",
+          "blockClass":[
+            "menu-link"
+          ]
+        }
+      },
+
+      "rich-text#link-catalogo": {
+        "props": {
+          "text": "![catalogo](assets/header/icon-catalogo.png)[Catálogo](/#)",
+          "blockClass":[
+            "menu-link"
+          ]
+        }
+      },
+
+      "flex-layout.col#menus-derecha": {
+        "props": {
+          "blockClass":[
+            "right-menu"
+          ]
+        },
+        "children": [
+          "flex-layout.row#menus-derecha"
+        ]
+      },
+
+      "flex-layout.row#menus-derecha": {
+        "props": {
+          "fullWidth": true,
+          "colSizing": "auto"
+        },
+        "children": [
+          "image#bio",
+          "image#servicios"
+        ]
+      },
+
+      "image#bio": {
+        "props": {
+          "src": "assets/header/Bto.jpg",
+          "link": {
+            "openNewTab": true,
+            "url": "#",
+            "title": "bioseguridad"
+          }
+        }
+      },
+
+      "image#servicios": {
+        "props": {
+          "src": "assets/header/SERVICIOS_E_INSTALACIONES.jpg",
+          "link": {
+            "openNewTab": true,
+            "url": "#",
+            "title": "bioseguridad"
+          }
         }
       }
 }

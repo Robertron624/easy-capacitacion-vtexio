@@ -6,3 +6,14 @@
     width: 58em;
 }
 
+.flexRowContent--menus-header{
+    padding: 0 2%;
+}
+
+.flexColChild--left-menu{
+    min-width: 42em;
+}
+
+.flexColChild--right-menu{
+    min-width: 17em;
+}
