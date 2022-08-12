@@ -8,6 +8,63 @@
         ]
       },
 
+      "flex-layout.row#top-banner": {
+        "children": [
+          "slider-layout#top-banner"
+        ],
+        "props": {
+          "fullWidth": true,
+          "blockClass": ["top-banner"]
+        }
+      },
+    
+      "slider-layout#top-banner": {
+        "props": {
+          "fullWidth": true,
+          "blockClass":["top-banner"],
+          "showNavigationArrows": "never",
+          "showPaginationDots": "never",
+          "infinite": true,
+          "autoplay": {
+            "stopOnHover": true,
+            "timeout": 4000
+          },
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          }
+        },
+        "children": [
+          "image#top-banner-1",
+          "image#top-banner-2"
+        ]
+      },
+    
+    
+      "image#top-banner-1":{
+        "title": "Top banner image",
+        "props": {
+          "src": "assets/header/easy-Venta-telefonica.webp"
+        }
+      },
+    
+      "image#top-banner-2":{
+        "title": "Top banner image",
+        "props": {
+          "src": "assets/header/Banner easy 11-15 Agosto.png"
+        }
+      },
+    
+      "rich-text": { 
+        "props": { 
+          "text": "VTEX Store Framework",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-1"
+        }
+      },
+
       "flex-layout.row#top-header": {
         "props": {
             "blockClass": "top-header",
@@ -15,25 +72,25 @@
             "colSizing": "auto"
         },
         "children": [
-            "flex-layout.col#redes",
+            "flex-layout.col#networks",
             "login"
         ]
       },
 
-      "flex-layout.col#redes": {
+      "flex-layout.col#networks": {
         "children": [
-            "flex-layout.row#redes"
+            "flex-layout.row#networks"
         ]
       },
 
-      "flex-layout.row#redes": {
+      "flex-layout.row#networks": {
         "children": [
-            "image#centro-ayuda",
-            "image#asistencia-web",
-            "image#tiendas",
-            "image#venta-telefonica",
-            "image#venta-empresas",
-            "image#mundo-experto"
+            "image#help-center",
+            "image#web-assistance",
+            "image#stores",
+            "image#telephone-sales",
+            "image#business-sales",
+            "image#expert-world"
         ],
         "props": {
             "blockClass": ["top-banner-redes"],
@@ -41,7 +98,7 @@
         }
       },
 
-      "image#centro-ayuda": {
+      "image#help-center": {
         "props": {
             "blockClass":[
                 "redes"
@@ -55,7 +112,7 @@
         }
       },
 
-      "image#asistencia-web": {
+      "image#web-assistance": {
         "props": {
             "blockClass":[
                 "redes"
@@ -69,7 +126,7 @@
         }
       },
 
-      "image#tiendas": {
+      "image#stores": {
         "props": {
             "blockClass":[
                 "redes"
@@ -83,7 +140,7 @@
         }
       },
 
-      "image#venta-telefonica": {
+      "image#telephone-sales": {
         "props": {
             "blockClass":[
                 "redes"
@@ -97,7 +154,7 @@
         }
       },
       
-      "image#venta-empresas": {
+      "image#business-sales": {
         "props": {
             "blockClass":[
                 "redes"
@@ -111,10 +168,10 @@
         }
       },
       
-      "image#mundo-experto": {
+      "image#expert-world": {
         "props": {
             "blockClass":[
-                "redes"
+                "networks"
             ],
             "src": "assets/header/MUNDO_EXPERTO.webp",
             "link": {
@@ -128,8 +185,7 @@
       "login": {
         "props": {
             "showIconProfile": true,
-            "iconLabel": "Mi cuenta",
-            "labelClasses": ["cuenta"]
+            "iconLabel": "Mi cuenta"
         }
       },
     
@@ -180,14 +236,14 @@
           "colSizing": "auto"
         },
         "children": [
-          "flex-layout.col#menus-izquierda",
-          "flex-layout.col#menus-derecha"
+          "flex-layout.col#left-menus",
+          "flex-layout.col#right-menus"
         ]
       },
 
-      "flex-layout.col#menus-izquierda": {
+      "flex-layout.col#left-menus": {
         "children": [
-          "flex-layout.row#menus-izquierda"
+          "flex-layout.row#left-menus"
         ],
         "props": {
           "blockClass": [
@@ -196,20 +252,20 @@
         }
       },
 
-      "flex-layout.row#menus-izquierda": {
+      "flex-layout.row#left-menus": {
         "props": {
           "fullWidth": true
         },
         "children": [
           "menu#categorias",
-          "rich-text#link-facil",
+          "rich-text#link-easy",
           "rich-text#link-tc-cencosud",
-          "rich-text#link-catalogo"
+          "rich-text#link-catalog"
 
         ]
       },
 
-      "rich-text#link-facil": {
+      "rich-text#link-easy": {
         "props": {
           "text": "![easy](assets/header/icon-blog.png)[Hazlo fácil, Hazlo easy](/#)",
           "blockClass":[
@@ -227,7 +283,7 @@
         }
       },
 
-      "rich-text#link-catalogo": {
+      "rich-text#link-catalog": {
         "props": {
           "text": "![catalogo](assets/header/icon-catalogo.png)[Catálogo](/#)",
           "blockClass":[
@@ -236,18 +292,18 @@
         }
       },
 
-      "flex-layout.col#menus-derecha": {
+      "flex-layout.col#right-menus": {
         "props": {
           "blockClass":[
             "right-menu"
           ]
         },
         "children": [
-          "flex-layout.row#menus-derecha"
+          "flex-layout.row#right-menus"
         ]
       },
 
-      "flex-layout.row#menus-derecha": {
+      "flex-layout.row#right-menus": {
         "props": {
           "fullWidth": true,
           "colSizing": "auto"

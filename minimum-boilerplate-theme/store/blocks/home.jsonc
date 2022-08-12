@@ -1,26 +1,60 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "flex-layout.row#slider-home"
     ]
   },
 
-  "flex-layout.row#top-banner": {
-    "children": [
-      "slider-layout#top-banner"
-    ],
+  "flex-layout.row#slider-home": {
     "props": {
       "fullWidth": true,
-      "blockClass": ["top-banner"]
-    }
+      "blockClass": "slider-row"
+    },
+    "children": [
+      "list-context.image-list#home-slider"
+    ]
   },
 
-  "slider-layout#top-banner": {
+  "list-context.image-list#home-slider": {
+      "children": [
+        "slider-layout#home-slider"
+      ],
+
+      "props": {
+        "images": [
+          {
+              "image": "assets/home/descuento_muebles_interior_exterior-19450.webp",
+              "description": "promo 1"
+          },
+          {
+            "image": "assets/home/banner_19433.webp",
+            "description": "promo 2"
+          },
+          {
+            "image": "assets/home/descuento_llantas_baterias-19434.webp",
+            "description": "promo 3"
+          },
+          {
+            "image": "assets/home/descuento_bicicletas-19432.webp",
+            "description": "promo 4"
+          },
+          {
+            "image": "assets/home/catalogo_renueva_mas-19396.webp",
+            "description": "promo 5"
+          },
+          {
+            "image": "assets/home/campana_lavadora-19452.webp",
+            "description": "promo 6"
+          }
+        ]
+      }
+  },
+
+  "slider-layout#home-slider": {
     "props": {
       "fullWidth": true,
-      "blockClass":["top-banner"],
-      "showNavigationArrows": "never",
-      "showPaginationDots": "never",
+      "blockClass":["slider-home"],
+      "showNavigationArrows": "desktopOnly",
       "infinite": true,
       "autoplay": {
         "stopOnHover": true,
@@ -31,34 +65,7 @@
         "tablet": 1,
         "phone": 1
       }
-    },
-    "children": [
-      "image#top-banner-1",
-      "image#top-banner-2"
-    ]
-  },
-
-
-  "image#top-banner-1":{
-    "title": "Top banner image",
-    "props": {
-      "src": "assets/header/easy-Venta-telefonica.webp"
-    }
-  },
-
-  "image#top-banner-2":{
-    "title": "Top banner image",
-    "props": {
-      "src": "assets/header/Banner easy 11-15 Agosto.png"
-    }
-  },
-
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
     }
   }
+
 }
