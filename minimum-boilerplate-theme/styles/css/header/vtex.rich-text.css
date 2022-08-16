@@ -4,6 +4,11 @@
 }
 
 .link--menu-link{
+    font-size: calc(13px + (14 - 13) * ((100vw - 300px)/ (1500 - 300)));
+    color: black;
+}
+
+.link--menu-link:hover{
     color: #dc2415;
 }
 

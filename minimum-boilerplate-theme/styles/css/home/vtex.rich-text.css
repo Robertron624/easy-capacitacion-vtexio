@@ -1,0 +1,9 @@
+
+.paragraph--promo-title{
+    
+    font-size: calc(16px + (25 - 16) * ((100vw - 300px)/ (1500 - 300)));
+    line-height: 150%;
+    font-weight: 600;
+    color: #444747!important;
+    position: relative;
+}
