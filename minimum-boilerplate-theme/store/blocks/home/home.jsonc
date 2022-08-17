@@ -4,98 +4,13 @@
       "flex-layout.row#slider__home",
       "flex-layout.row#promotions__1",
       "flex-layout.row#combos",
-      "flex-layout.row#promotions__2"
+      "flex-layout.row#promotions__2",
+      "flex-layout.row#promotions__3",
+      "flex-layout.row#promotions__4",
+      "flex-layout.row#promotions__5"
     ]
   },
 
-  "flex-layout.row#promotions__1":{
-    "props": {
-      "blockClass": "home-promos",
-      "fullWidth": true,
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.col#promotions__1"
-    ]
-  },
-
-  "flex-layout.col#promotions__1":{
-    "props": {
-      "blockClass":[
-        "home-promos"
-      ]
-    },
-    "children": [
-      "rich-text#promo__title--1",
-      "flex-layout.row#promos__images--1"
-    ]
-  },
-  
-  "rich-text#promo__title--1": {
-    "title": "promo title",
-    "props": {
-      "text": "Renueva MÁS por MENOS",
-      "textAlignment": "CENTER",
-      "textPosition": "LEFT",
-      "blockClass":[
-        "promo-title"
-      ]
-    }
-  },
-
-  "flex-layout.row#promos__images--1": {
-    "props": {
-      "fullWidth": true,
-      "colSizing": "auto"
-    },
-    "children": [
-      "image#promo__1--1",
-      "image#promo__1--2",
-      "image#promo__1--3"
-    ]
-  },
-
-  "image#promo__1--1": {
-    "props": {
-      "blockClass":[
-        "home-promo"
-      ],
-      "src": "assets/home/promos_1/mesa_noche_rta-19386.webp",
-      "link": {
-        "openNewTab": false,
-        "title": "",
-        "url": "#"
-      }
-    }
-  },
-
-  "image#promo__1--2": {
-    "props": {
-      "blockClass":[
-        "home-promo"
-      ],
-      "src": "assets/home/promos_1/cortina_romanas_yute-19387.webp",
-      "link": {
-        "openNewTab": false,
-        "title": "",
-        "url": "#"
-      }
-    }
-  },
-
-  "image#promo__1--3":{
-    "props": {
-      "blockClass":[
-        "home-promo"
-      ],
-      "src": "assets/home/promos_1/edredones_cotidiana-19388.webp",
-      "link": {
-        "openNewTab": false,
-        "title": "",
-        "url": "#"
-      }
-    }
-  },
 
   "flex-layout.row#combos":{
     "props": {
@@ -170,94 +85,9 @@
     ]
   },
 
-  "flex-layout.row#promotions__2":{
-    "props": {
-      "blockClass": "home-promos",
-      "fullWidth": true,
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.col#promotions__2"
-    ]
-  },
 
-  "flex-layout.col#promotions__2": {
-    "props": {
-      "blockClass":[
-        "home-promos"
-      ]
-    },
-    "children": [
-      "rich-text#promo__title--2",
-      "flex-layout.row#promos__images--2"
-    ]
-  },
 
-  "rich-text#promo__title--2": {
-    "title": "promo title 2",
-    "props": {
-      "text": "Pinturas",
-      "textAlignment": "CENTER",
-      "textPosition": "LEFT",
-      "blockClass":[
-        "promo-title"
-      ]
-    }
-  },
-
-  "flex-layout.row#promos__images--2":{
-    "props": {
-      "fullWidth": true,
-      "colSizing": "auto"
-    },
-    "children": [
-      "image#promo__2--1",
-      "image#promo__2--2",
-      "image#promo__2--3"
-    ]
-  },
-
-  "image#promo__2--1":{
-    "props": {
-      "blockClass":[
-        "home-promo"
-      ],
-      "src": "assets/home/paints/kit_senalizacion_parqueaderos-19426.webp",
-      "link": {
-        "openNewTab": false,
-        "title": "",
-        "url": "#"
-      }
-    }
-  },
-
-  "image#promo__2--2":{
-    "props": {
-      "blockClass":[
-        "home-promo"
-      ],
-      "src": "assets/home/paints/kit_proteccion_pisos-19428.webp",
-      "link": {
-        "openNewTab": false,
-        "title": "",
-        "url": "#"
-      }
-    }
-  },
-
-  "image#promo__2--3":{
-    "props": {
-      "blockClass":[
-        "home-promo"
-      ],
-      "src": "assets/home/paints/pinturas-19352.webp",
-      "link": {
-        "openNewTab": false,
-        "title": "",
-        "url": "#"
-      }
-    }
-  }
+  "flex-layout.col": {}
 
 
 

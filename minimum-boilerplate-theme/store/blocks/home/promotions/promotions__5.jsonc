@@ -1,0 +1,93 @@
+{
+    "flex-layout.row#promotions__5":{
+        "props": {
+          "blockClass": "home-promos",
+          "fullWidth": true,
+          "colSizing": "auto"
+        },
+        "children": [
+          "flex-layout.col#promotions__5"
+        ]
+      },
+    
+      "flex-layout.col#promotions__5": {
+        "props": {
+          "blockClass":[
+            "home-promos"
+          ]
+        },
+        "children": [
+          "rich-text#promo__title--5",
+          "flex-layout.row#promos__images--5"
+        ]
+      },
+    
+      "rich-text#promo__title--5": {
+        "title": "promo title 5",
+        "props": {
+          "text": "Pisos para renovar tu hogar",
+          "textAlignment": "CENTER",
+          "textPosition": "LEFT",
+          "blockClass":[
+            "promo-title"
+          ]
+        }
+      },
+    
+      "flex-layout.row#promos__images--5":{
+        "props": {
+          "fullWidth": true,
+          "colSizing": "auto"
+        },
+        "children": [
+          "image#promo__5--1",
+          "image#promo__5--2",
+          "image#promo__5--3"
+        ]
+      },
+    
+      "image#promo__5--1":{
+        "props": {
+          "blockClass":[
+            "home-promo",
+            "left-side"
+          ],
+          "src": "assets/home/floors/pisos_ceramicos-18842.webp",
+          "link": {
+            "openNewTab": false,
+            "title": "",
+            "url": "#"
+          }
+        }
+      },
+    
+      "image#promo__5--2":{
+        "props": {
+          "blockClass":[
+            "home-promo",
+            "left-side"
+          ],
+          "src": "assets/home/floors/porcelanatos-18843.webp",
+          "link": {
+            "openNewTab": false,
+            "title": "",
+            "url": "#"
+          }
+        }
+      },
+    
+      "image#promo__5--3":{
+        "props": {
+          "blockClass":[
+            "home-promo",
+            "right-side"
+          ],
+          "src": "assets/home/floors/pisos_laminados-18844.webp",
+          "link": {
+            "openNewTab": false,
+            "title": "",
+            "url": "#"
+          }
+        }
+      }
+}

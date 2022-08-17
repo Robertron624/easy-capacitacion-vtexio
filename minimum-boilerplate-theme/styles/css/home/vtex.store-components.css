@@ -2,3 +2,13 @@
     width: 492px;
     height: 477px;
 }
+
+.imageElement--left-side{
+    width: 301px;
+    height: 348px;
+}
+
+.imageElement--right-side{
+    width: 610px;
+    height: 348px;
+}

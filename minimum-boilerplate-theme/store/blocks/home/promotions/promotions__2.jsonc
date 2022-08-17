@@ -1,0 +1,93 @@
+{
+    "flex-layout.row#promotions__2":{
+        "props": {
+          "blockClass": "home-promos",
+          "fullWidth": true,
+          "colSizing": "auto"
+        },
+        "children": [
+          "flex-layout.col#promotions__2"
+        ]
+      },
+    
+      "flex-layout.col#promotions__2": {
+        "props": {
+          "blockClass":[
+            "home-promos"
+          ]
+        },
+        "children": [
+          "rich-text#promo__title--2",
+          "flex-layout.row#promos__images--2"
+        ]
+      },
+    
+      "rich-text#promo__title--2": {
+        "title": "promo title 2",
+        "props": {
+          "text": "Pinturas",
+          "textAlignment": "CENTER",
+          "textPosition": "LEFT",
+          "blockClass":[
+            "promo-title"
+          ]
+        }
+      },
+    
+      "flex-layout.row#promos__images--2":{
+        "props": {
+          "fullWidth": true,
+          "colSizing": "auto"
+        },
+        "children": [
+          "image#promo__2--1",
+          "image#promo__2--2",
+          "image#promo__2--3"
+        ]
+      },
+    
+      "image#promo__2--1":{
+        "props": {
+          "blockClass":[
+            "home-promo",
+            "left-side"
+          ],
+          "src": "assets/home/paints/kit_senalizacion_parqueaderos-19426.webp",
+          "link": {
+            "openNewTab": false,
+            "title": "",
+            "url": "#"
+          }
+        }
+      },
+    
+      "image#promo__2--2":{
+        "props": {
+          "blockClass":[
+            "home-promo",
+            "left-side"
+          ],
+          "src": "assets/home/paints/kit_proteccion_pisos-19428.webp",
+          "link": {
+            "openNewTab": false,
+            "title": "",
+            "url": "#"
+          }
+        }
+      },
+    
+      "image#promo__2--3":{
+        "props": {
+          "blockClass":[
+            "home-promo",
+            "right-side"
+          ],
+          "src": "assets/home/paints/pinturas-19352.webp",
+          "link": {
+            "openNewTab": false,
+            "title": "",
+            "url": "#"
+          }
+        }
+      }
+}
