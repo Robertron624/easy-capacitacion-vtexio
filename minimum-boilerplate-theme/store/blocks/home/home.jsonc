@@ -7,12 +7,16 @@
       "flex-layout.row#promotions__2",
       "flex-layout.row#promotions__3",
       "flex-layout.row#promotions__4",
-      "flex-layout.row#promotions__5"
+      "flex-layout.row#promotions__5",
+      "flex-layout.row#promotions__6",
+      "flex-layout.row#home-videos",
+      "flex-layout.row#promises"
     ]
   },
 
 
   "flex-layout.row#combos":{
+    "title": "Main combos row",
     "props": {
       "blockClass": "home-combos",
       "fullWidth": true,
@@ -24,6 +28,7 @@
   },
 
   "flex-layout.col#combo__shelf": {
+    "title": "Main combos colum",
     "props": {
       "blockClass":[
         "shelf-combo"
@@ -31,8 +36,7 @@
     },
     "children": [
       "rich-text#combo__title",
-      "image#combo__1",
-      "list-context.product-list#home-combos"
+      "flex-layout.row#combos-container"
     ]
   },
 
@@ -48,10 +52,24 @@
     }
   },
 
+  "flex-layout.row#combos-container": {
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "blockClass": [
+        "combos-row"
+      ]
+    },
+    "children": [
+      "image#combo__1",
+      "flex-layout.col#combos-slider-container"
+    ]
+  },
+
   "image#combo__1":{
     "props": {
       "blockClass":[
-        "home-promo"
+        "combos-banner"
       ],
       "src": "assets/home/combos/combos-19405.webp",
       "link": {
@@ -62,12 +80,26 @@
     }
   },
 
+  "flex-layout.col#combos-slider-container": {
+    "props": {
+      "blockClass":[
+        "combos-slider"
+      ]
+    },
+    "children": [
+      "list-context.product-list#home-combos"
+    ]
+  },
+
   "list-context.product-list#home-combos":{
     "props": {
       "maxItems": 3
     },
     "blocks": [
       "product-summary.shelf#home-combo"
+    ],
+    "children": [
+      "slider-layout#combos__slider"
     ]
   },
 
@@ -76,19 +108,48 @@
       "priceBehavior": "default"
     },
     "children": [
-      "product-summary-name",
-      "product-summary-description",
       "product-summary-image",
+      "product-summary-name",
       "product-summary-price",
-      "product-summary-sku-selector",
-      "product-summary-buy-button"
+      "add-to-cart-button#home-shelf"
     ]
   },
 
+  "product-summary-image":{
+    "title": "Shelf image",
+    "props": {
+      "width":{
+        "desktop": 216
+      }
+    }
+  },
 
+  "add-to-cart-button#home-shelf":{
+    "title": "Add to cart button",
+    "props": {
+    "blockClass":[
+      "ho,e-shelf"
+    ],
+    "text": "AGREGAR"
+    }
+  },
 
-  "flex-layout.col": {}
-
-
+  "slider-layout#combos__slider":{
+    "props": {
+      "fullWidth": true,
+      "blockClass":["slider-combos"],
+      "showNavigationArrows": "desktopOnly",
+      "infinite": true,
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 4000
+      },
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      }
+    }
+  }
 
 }

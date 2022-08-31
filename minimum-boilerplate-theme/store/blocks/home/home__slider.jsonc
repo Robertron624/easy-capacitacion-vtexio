@@ -1,5 +1,6 @@
 {
     "flex-layout.row#slider__home": {
+      "title": "Main slider container",
         "props": {
           "fullWidth": true,
           "blockClass": "slider-row"
@@ -10,6 +11,7 @@
       },
     
       "list-context.image-list#home__slider": {
+        "title": "Slider image list",
           "children": [
             "slider-layout#home__slider"
           ],
@@ -45,6 +47,7 @@
       },
     
       "slider-layout#home__slider": {
+        "title": "Main home slider",
         "props": {
           "fullWidth": true,
           "blockClass":["slider-home"],

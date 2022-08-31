@@ -1,7 +1,7 @@
 {
     "header-layout.desktop": {
         "children": [
-            "flex-layout.row#top-banner",
+          "flex-layout.row#top-banner",
           "flex-layout.row#top-header",
           "flex-layout.row#content-header",
           "flex-layout.row#menus-header"

@@ -1,0 +1,190 @@
+{
+    "flex-layout.row#promises": {
+        "props": {
+            "blockClass": "promises",
+            "fullWidth": true,
+            "colSizing": "auto"
+          },
+          "children": [
+            "flex-layout.col#promises"
+          ]
+        },
+
+    "flex-layout.col#promises": {
+        "children": [
+            "rich-text#promises__title",
+            "flex-layout.row#promises-images"
+        ]
+    },
+
+    "rich-text#promises__title": {
+        "title": "promises title",
+        "props": {
+          "text": "Easy todo para construir, decorar y remodelar.",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass":[
+            "promises-title",
+            "flex-layout.row#promises-images"
+          ]
+        }
+    },
+
+    "flex-layout.row#promises-images": {
+        "props": {
+            "blockClass": "home-promos",
+            "fullWidth": true,
+            "colSizing": "auto"
+          },
+          "children": [
+            "flex-layout.col#promise__1",
+            "flex-layout.col#promise__2",
+            "flex-layout.col#promise__3"
+          ]
+    },
+
+    "flex-layout.col#promise__1":{
+        "title": "Promise 1",
+        "props": {
+            "blockClass":[
+                "promise-col"
+            ]
+        },
+        "children": [
+            "image#promise__1--icon",
+            "rich-text#promise__1--title",
+            "rich-text#promise__1--subtitle"
+        ]
+    },
+
+    "image#promise__1--icon":{
+        "title": "Promise 1 icon",
+        "props": {
+            "blockClass":[
+                "promise"
+            ],
+            "src": "assets/home/promises/icono-envio.jpg"
+        }
+    },
+
+    "rich-text#promise__1--title": {
+        "title": "Promise 1 title",
+        "props": {
+            "text": "Envío a domicilio",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass":[
+                "promise-title"
+            ]
+        }
+    },
+    
+    "rich-text#promise__1--subtitle": {
+        "title": "Promise 1 subtitle",
+        "props": {
+            "text": "Recibe en tu casa el producto",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "blockClass":[
+                "promise-subtitle"
+            ]
+        }
+    },
+
+    "flex-layout.col#promise__2":{
+        "title": "Promise 2",
+        "props": {
+            "blockClass":[
+                "promise-col"
+            ]
+        },
+        "children": [
+            "image#promise__2--icon",
+            "rich-text#promise__2--title",
+            "rich-text#promise__2--subtitle"
+        ]
+    },
+
+    "image#promise__2--icon":{
+        "title": "Promise 2 icon",
+        "props": {
+            "blockClass":[
+                "promise"
+            ],
+            "src": "assets/home/promises/icono-recogida.jpg"
+        }
+    },
+
+    "rich-text#promise__2--title": {
+        "title": "Promise 2 title",
+        "props": {
+            "text": "Retiro en tienda",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass":[
+                "promise-title"
+            ]
+        }
+    },
+    
+    "rich-text#promise__2--subtitle": {
+        "title": "Promise 2 subtitle",
+        "props": {
+            "text": "Retira en tu tienda más cercana",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass":[
+                "promise-subtitle"
+            ]
+        }
+    },
+
+    "flex-layout.col#promise__3":{
+        "title": "Promise 3",
+        "props": {
+            "blockClass":[
+                "promise-col"
+            ]
+        },
+        "children": [
+            "image#promise__3--icon",
+            "rich-text#promise__3--title",
+            "rich-text#promise__3--subtitle"
+        ]
+    },
+
+    "image#promise__3--icon":{
+        "title": "Promise 3 icon",
+        "props": {
+            "blockClass":[
+                "promise"
+            ],
+            "src": "assets/home/promises/icono-seguro.jpg"
+        }
+    },
+
+    "rich-text#promise__3--title": {
+        "title": "Promise 3 title",
+        "props": {
+            "text": "Compra fácil",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass":[
+                "promise-title"
+            ]
+        }
+    },
+    
+    "rich-text#promise__3--subtitle": {
+        "title": "Promise 3 subtitle",
+        "props": {
+            "text": "Rápido y seguro",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass":[
+                "promise-subtitle"
+            ]
+        }
+    }
+}
+
