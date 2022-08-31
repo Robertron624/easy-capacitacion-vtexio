@@ -1,0 +1,35 @@
+{
+    "flex-layout.col#footer__column--1": {
+        "title": "Networks column",
+        "props": {
+          "blockClass":[
+            "footer-column"
+          ]
+        },
+        "children": [
+          "image#easy__logo",
+          "rich-text#easy__slogan"
+        ]
+      },
+    
+      "image#easy__logo": {
+        "title": "Easy logo",
+        "props": {
+          "blockClass":[
+            "footer-logo"
+          ],
+          "src": "assets/footer/logo-easy.webp",
+          "maxWidth": "100px",
+          "maxHeight": "100px"
+        }
+      },
+    
+      "rich-text#easy__slogan": {
+        "title": "Easy slogan",
+        "props": {
+          "text": "Easy, la mejor opción para construir, remodelar y decorar tu hogar.",
+          "textAlignment": "CENTER",
+          "textPosition": "LEFT"
+        }
+      }
+}

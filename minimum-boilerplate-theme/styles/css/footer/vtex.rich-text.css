@@ -1,0 +1,17 @@
+.paragraph--footer-title{
+    font-size: calc(16px + (22 - 16) * ((100vw - 300px)/ (1500 - 300)));
+    font-weight: 700;
+    color: black;
+}
+
+.paragraph--footer-link{
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+.paragraph--footer-link:visited{
+    color: black;
+}
+
+.paragraph--footer-link:hover{
+    color: #dc2415;
+}

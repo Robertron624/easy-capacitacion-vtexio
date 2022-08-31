@@ -1,0 +1,110 @@
+{
+    "flex-layout.col#footer__column--2":{
+        "title": "Easy column",
+        "props": {
+          "blockClass":[
+            "footer__column"
+          ]
+        },
+        "children": [
+          "rich-text#easy__column--title",
+          "rich-text#easy__column--about",
+          "rich-text#easy__column--catalogues",
+          "rich-text#easy__column--stores",
+          "rich-text#easy__column--expert",
+          "rich-text#easy__column--how-to-buy",
+          "rich-text#easy__column--work-with-us",
+          "rich-text#easy__column--cencosud-cc"
+        ]
+      },
+    
+      "rich-text#easy__column--title": {
+        "title": "Easy column title",
+        "props": {
+          "text": "Easy",
+          "blockClass":[
+            "footer-title"
+          ]
+        }
+      },
+    
+      "rich-text#easy__column--about": {
+        "title": "About easy",
+        "props": {
+          "text": "[Acerca de EASY](/#)",
+          "blockClass":[
+            "footer-link"
+          ]
+        }
+      },
+    
+      "rich-text#easy__column--catalogues": {
+        "title": "Catalogues",
+        "props": {
+          "text": "[Catálogos](/#)",
+          "blockClass":[
+            "footer-link"
+          ]
+        }
+      },
+    
+      "rich-text#easy__column--stores": {
+        "title": "Stores and schedules",
+        "props": {
+          "text": "[Tiendas y Horarios](/#)",
+          "blockClass":[
+            "footer-link"
+          ]
+        }
+      },
+    
+      "rich-text#easy__column--expert": {
+        "title": "Expert world",
+        "props": {
+          "text": "[Mundo experto](/#)",
+          "blockClass":[
+            "footer-link"
+          ]
+        }
+      },
+    
+      "rich-text#easy__column--how-to-buy": {
+        "title": "How to buy",
+        "props": {
+          "text": "[¿Cómo comprar?](/#)",
+          "blockClass":[
+            "footer-link"
+          ]
+        }
+      },
+    
+      "rich-text#easy__column--work-with-us": {
+        "title": "Work with us",
+        "props": {
+          "text": "[Trabaja con nosotros](/#)",
+          "blockClass":[
+            "footer-link"
+          ]
+        }
+      },
+    
+      "rich-text#easy__column--cencosud-cc": {
+        "title": "Cencosud credit card",
+        "props": {
+          "text": "[Tarjeta cencosud](/#)",
+          "blockClass":[
+            "footer-link"
+          ]
+        }
+      },
+    
+      "rich-text#easy__column--bonds": {
+        "title": "Cencosud credit card",
+        "props": {
+          "text": "[¿Cómo redimir Bonos Web?](/#)",
+          "blockClass":[
+            "footer-link"
+          ]
+        }
+      }
+}

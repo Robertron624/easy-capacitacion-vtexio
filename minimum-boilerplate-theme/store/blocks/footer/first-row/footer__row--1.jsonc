@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#footer__row--1": {
+      "title": "Footer first row",
+      "props": {
+        "blockClass": "footer-row--1"
+      }, 
+      "children": [
+        "flex-layout.col#footer__column--1",
+        "flex-layout.col#footer__column--2",
+        "flex-layout.col#footer__column--3",
+        "flex-layout.col#footer__column--4"
+      ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "flex-layout.row#footer__row--2": {
+        "title": "Footer second row",
+        "props": {
+          "blockClass": "footer-row--2"
+        }, 
+        "children": [
+          
+        ]
+      }
+}

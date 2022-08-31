@@ -14,7 +14,8 @@
         "props": {
           "blockClass":[
             "home-promos"
-          ]
+          ],
+          "width":"100%"
         },
         "children": [
           "rich-text#promo__title--4",

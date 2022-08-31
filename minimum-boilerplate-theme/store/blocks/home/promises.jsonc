@@ -1,5 +1,6 @@
 {
     "flex-layout.row#promises": {
+        "title": "Promises main row",
         "props": {
             "blockClass": "promises",
             "fullWidth": true,
@@ -11,6 +12,13 @@
         },
 
     "flex-layout.col#promises": {
+        "title": "Promises main column",
+        "props": {
+            "blockClass":[
+                "promises"
+            ],
+            "width":"100%"
+        },
         "children": [
             "rich-text#promises__title",
             "flex-layout.row#promises-images"
@@ -18,7 +26,7 @@
     },
 
     "rich-text#promises__title": {
-        "title": "promises title",
+        "title": "Promises section title",
         "props": {
           "text": "Easy todo para construir, decorar y remodelar.",
           "textAlignment": "CENTER",
@@ -31,8 +39,9 @@
     },
 
     "flex-layout.row#promises-images": {
+        "title": "Promises images row",
         "props": {
-            "blockClass": "home-promos",
+            "blockClass": "image-promises",
             "fullWidth": true,
             "colSizing": "auto"
           },
