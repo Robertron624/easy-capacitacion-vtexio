@@ -1,0 +1,30 @@
+{
+    "store.custom#services":{
+        "children": [
+            "flex-layout.row#services"
+        ]
+    },
+
+    "flex-layout.row#services":{
+        "title": "Services row",
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "services"
+            ]
+        },
+        "children": [
+            "image#installation"
+        ]
+    },
+
+    "image#installation":{
+        "title": "Installation service",
+        "props": {
+            "src": "assets/custom/LANDING_Servicio-de-instalacion.jpg",
+            "blockClass":[
+                "installation"
+            ]
+        }
+    }
+}

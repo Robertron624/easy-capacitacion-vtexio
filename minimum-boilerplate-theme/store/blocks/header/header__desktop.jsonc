@@ -310,7 +310,7 @@
         },
         "children": [
           "image#bio",
-          "image#servicios"
+          "image#services"
         ]
       },
 
@@ -325,12 +325,12 @@
         }
       },
 
-      "image#servicios": {
+      "image#services": {
         "props": {
           "src": "assets/header/SERVICIOS_E_INSTALACIONES.jpg",
           "link": {
             "openNewTab": true,
-            "url": "#",
+            "url": "/services",
             "title": "bioseguridad"
           }
         }

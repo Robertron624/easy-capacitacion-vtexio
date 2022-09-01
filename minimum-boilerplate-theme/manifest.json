@@ -47,7 +47,13 @@
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.builder-hub": "0.285.4",
-    "vtex.store-image": "0.x"
+    "vtex.store-image": "0.x",
+    "vtex.condition-layout": "2.x",
+    "vtex.product-specifications": "1.x",
+    "vtex.product-bookmark-interfaces": "1.x",
+    "vtex.product-price": "1.x",
+    "vtex.product-customizer": "2.x",
+    "vtex.product-gifts": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
