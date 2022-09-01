@@ -1,5 +1,5 @@
 {
-    "flex-layout.col#footer__column--1": {
+    "flex-layout.col#footer__row--1--column--1": {
         "title": "Networks column",
         "props": {
           "blockClass":[
@@ -27,8 +27,11 @@
       "rich-text#easy__slogan": {
         "title": "Easy slogan",
         "props": {
+          "blockClass":[
+            "footer-slogan"
+          ],
           "text": "Easy, la mejor opción para construir, remodelar y decorar tu hogar.",
-          "textAlignment": "CENTER",
+          "textAlignment": "LEFT",
           "textPosition": "LEFT"
         }
       }

@@ -6,6 +6,36 @@
 .flexRowContent--footer-row--2{
     background-color: #cfcfcf;
     width: 100%;
-    height: 400px;
 }
 
+.flexRowContent--cencosud-companies{
+    width: 13.57rem;
+}
+
+.flexRowContent--footer-row--1{
+    padding: 7.8% 2%;
+}
+
+.flexRowContent--image-promises{
+    padding: 0.625rem 0;
+}
+
+.flexRowContent--total-code .stretchChildrenWidth{
+    justify-content: left;
+}
+
+.flexRowContent--total-code{
+    margin-top: 0.938rem;
+}
+
+.flexRowContent--footer-row--2{
+    padding: 10px 2% 0 2%;
+}
+
+.flexRowContent--footer-row--2 .flexCol--footer__column{
+    padding-top: 20px;
+}
+
+.flexRowContent--bottom-footer{
+    padding: 10px 5%;
+}

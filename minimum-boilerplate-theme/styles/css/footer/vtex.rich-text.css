@@ -15,3 +15,39 @@
 .paragraph--footer-link:hover{
     color: #dc2415;
 }
+
+.container--footer-slogan{
+    width: 60%;
+    font-size: 14px;
+}
+
+.container--footer-link{
+    margin-bottom: 5px;
+}
+
+.container--footer-title{
+    margin-bottom: 5px;
+}
+
+.container--footer-nolink {
+    margin-bottom: 5px;
+    color: #666;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.container--contactanos-title{
+    font-weight: 800;
+    font-size: calc(18px + (30 - 18) * ((100vw - 300px)/ (1500 - 300)));
+    padding: 32% 9%;
+    justify-content: flex-end;
+}
+
+.container--footer-payments,
+.container--footer-copyright{
+    font-size: 14px;
+}
+
+.container--footer-payments{
+    justify-content: flex-end;
+}

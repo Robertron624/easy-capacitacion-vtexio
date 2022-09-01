@@ -1,5 +1,5 @@
 {
-    "flex-layout.col#footer__column--2":{
+    "flex-layout.col#footer__row--1--column--2":{
         "title": "Easy column",
         "props": {
           "blockClass":[
@@ -14,7 +14,8 @@
           "rich-text#easy__column--expert",
           "rich-text#easy__column--how-to-buy",
           "rich-text#easy__column--work-with-us",
-          "rich-text#easy__column--cencosud-cc"
+          "rich-text#easy__column--cencosud-cc",
+          "rich-text#easy__column--bonds"
         ]
       },
     

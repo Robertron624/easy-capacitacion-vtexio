@@ -1,0 +1,79 @@
+{
+    "flex-layout.row#bottom__footer": {
+        "title": "Bottom footer",
+        "props": {
+            "blockClass": [
+                "bottom-footer"
+            ],
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#copyright",
+            "flex-layout.col#payment__methods"
+        ]
+    },
+
+    "flex-layout.col#copyright": {
+        "title": "Copyright",
+        "props": {
+            "blockClass":[
+                "footer-copyright"
+            ],
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "rich-text#footer-copyright"
+        ]
+    },
+
+    "rich-text#footer-copyright": {
+        "title": "Copyright text",
+        "props": {
+            "text": "Copyright Cencosud Colombia.",
+            "blockClass":[
+                "footer-copyright"
+            ]
+        }
+    },
+
+    "flex-layout.col#payment__methods":{
+        "title": "Payment methods container",
+        "props": {
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "flex-layout.row#payment__methods"
+        ]
+    },
+
+    "flex-layout.row#payment__methods": {
+        "props": {
+            "colSizing": "equal",
+            "blockClass": [
+                "payment-methods"
+            ]
+        },
+        "children": [
+            "rich-text#payment__methods",
+            "image#payment__methods"
+        ]
+    },
+
+    "rich-text#payment__methods":{
+        "title": "Payment methods text",
+        "props": {
+            "text": "MEDIOS DE PAGO",
+            "blockClass":[
+                "footer-payments"
+            ]
+        }
+    },
+
+    "image#payment__methods": {
+        "title": "Payment methods images",
+        "props": {
+            "src": "assets/footer/Pata Medios de Pago-45.webp",
+            "maxWidth": "300px"
+        }
+    }
+}

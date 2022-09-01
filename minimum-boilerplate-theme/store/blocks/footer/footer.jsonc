@@ -5,13 +5,15 @@
   "footer-layout.desktop": { 
     "children": [
       "flex-layout.row#footer__row--1",
-      "flex-layout.row#footer__row--2"
+      "flex-layout.row#footer__row--2",
+      "flex-layout.row#bottom__footer"
     ]
   },
   "footer-layout.mobile": { 
     "children": [
       "flex-layout.row#footer__row--1",
-      "flex-layout.row#footer__row--2"
+      "flex-layout.row#footer__row--2",
+      "flex-layout.row#bottom__footer"
     ]
   }
 }

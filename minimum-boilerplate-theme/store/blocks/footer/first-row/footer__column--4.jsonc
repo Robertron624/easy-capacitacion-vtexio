@@ -1,10 +1,11 @@
 {
-    "flex-layout.col#footer__column--4":{
+    "flex-layout.col#footer__row--1--column--4":{
         "title": "Easy column",
         "props": {
           "blockClass":[
             "footer__column"
-          ]
+          ],
+          "preventVerticalStretch": true
         },
         "children": [
           "rich-text#cencosud--title",
@@ -29,7 +30,8 @@
             "blockClass": [
                 "cencosud-companies"
             ],
-            "fullWidth": true
+            "fullWidth": true,
+            "colSizing": "auto"
         },
         "children": [
             "image#jumbo",
@@ -83,7 +85,7 @@
         "title": "Totalcode container",
         "props": {
             "blockClass": ["total-code"],
-            "fullWidth": true
+            "fullWidth": false
         },
         "children": [
             "image#totalcode"
@@ -95,7 +97,7 @@
         "props": {
             "src": "assets/footer/TotalCode-eCommerce.png",
             "blockClass":[
-                "toatlcode"
+                "totalcode"
             ]
         }
       }
