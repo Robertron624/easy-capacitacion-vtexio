@@ -3,9 +3,11 @@
         "children": ["sticky-layout#mobile"]
       },
       "sticky-layout#mobile": {
+        "title": "Sticky header mobile",
         "children": ["flex-layout.row#mobile"]
       },
       "flex-layout.row#mobile": {
+        "title": "Main header mobile",
         "children": [
           "drawer",
           "logo",

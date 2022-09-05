@@ -53,7 +53,10 @@
     "vtex.product-bookmark-interfaces": "1.x",
     "vtex.product-price": "1.x",
     "vtex.product-customizer": "2.x",
-    "vtex.product-gifts": "0.x"
+    "vtex.product-gifts": "0.x",
+    "vtex.store-icons": "0.x",
+    "vtex.product-highlights": "2.x",
+    "vtex.search": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

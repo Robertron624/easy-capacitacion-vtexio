@@ -1,0 +1,85 @@
+{
+    "responsive-layout.mobile#product__summary-list":{
+        "children": [
+            "flex-layout.row#summary__list--mobile"
+        ]
+    },
+
+    "flex-layout.row#summary__list--mobile":{
+        "props":{
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "summary-list-mobile",
+            "colGap": 5
+        },
+          "children": [
+            "stack-layout#summary__list--mobile",
+            "flex-layout.col#summary__details--list-mobile"
+        ]
+    },
+
+    "stack-layout#summary__list--mobile": {
+        "children": [
+          "product-summary-image#summary__list--mobile",
+          "vtex.product-highlights:product-highlights#collection"
+        //   "modal-trigger#quickview" // Check quickview.jsonc
+        ]
+    },
+
+    "product-summary-image#summary__list--mobile": {
+        "props": {
+          "showBadge": false,
+          "aspectRatio": "1:1",
+          "maxHeight": 220,
+          "blockClass": "summary-list-mobile"
+        }
+    },
+
+    "flex-layout.col#summary__details--list-mobile": {
+        "props": {
+          "preventVerticalStretch": true,
+          "width": "grow",
+          "blockClass": "summary-details-list-mobile"
+        },
+        "children": [
+          "flex-layout.col#summaryUp__details--list-mobile",
+          "flex-layout.col#summaryDown__details--list-mobile" //FALTA ESTE
+        ]
+    },
+
+    "flex-layout.col#summaryUp__details--list-mobile":{
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "summaryUp-details-list-mobile"
+          },
+          "children": [
+            "product-brand#summary__list--mobile",
+            "product-summary-name#summary__list--mobile",
+            "product-rating-inline"
+          ]   
+    },
+
+    "product-brand#summary__list--mobile":{
+        "props": {
+            "displayMode": "text",
+            "blockClass": "summary-list-mobile"
+          }
+    },
+
+    "product-summary-name#summary__list--mobile": {
+        "props": {
+          "tag": "div",
+          "blockClass": "summaryListMobile"
+        }
+    },
+
+    "flex-layout.col#summaryDown__details--list-mobile": {
+        "props": {
+          "preventVerticalStretch": true
+        },
+        "children": [
+          "product-selling-price#summary",
+          "product-installments#summary"
+        ]
+    }
+}

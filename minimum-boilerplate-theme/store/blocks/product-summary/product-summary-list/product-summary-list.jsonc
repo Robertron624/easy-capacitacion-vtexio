@@ -1,0 +1,11 @@
+{
+    "product-summary.shelf#list__layout": {
+        "props": {
+          "blockClass": "list-ayout"
+        },
+        "children": [
+          "responsive-layout.desktop#product__summary-list",
+          "responsive-layout.mobile#product__summary-list" //FALTA ESEE
+        ]
+    }
+}

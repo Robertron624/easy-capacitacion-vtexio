@@ -1,0 +1,206 @@
+{
+    "search-result-layout.desktop": {
+        "children": [
+          "flex-layout.row#search__bread",
+          "flex-layout.row#search__title",
+          "flex-layout.row#result"
+        ],
+        "props": {
+          "pagination": "show-more",
+          "preventRouteChange": false,
+          "defaultGalleryLayout": "grid"
+        }
+      },
+    
+      "flex-layout.row#search__bread": {
+        "children": ["breadcrumb.search"],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "fullWidth": true
+        }
+      },
+
+      "breadcrumb": {
+        "props": {
+          "showOnMobile": true
+        }
+      },
+    
+      "flex-layout.row#search__title": {
+        "children": ["search-title.v2"]
+      },
+      "flex-layout.row#result": {
+        "children": ["flex-layout.col#filter", "flex-layout.col#content"],
+        "props": {
+          "preventHorizontalStretch": true,
+          "fullWidth": true
+        }
+      },
+    
+      "flex-layout.col#filter": {
+        "children": ["filter-navigator.v3"],
+        "props": {
+          "blockClass": "filterCol"
+        }
+      },
+    
+      "flex-layout.col#content": {
+        "children": [
+          "flex-layout.row#searchinfo",
+          "flex-layout.row#fetchprevious",
+          "flex-layout.row#products",
+          "flex-layout.row#fetchmore"
+        ],
+        "props": {
+          "width": "grow",
+          "preventVerticalStretch": true
+        }
+      },
+    
+      "flex-layout.row#searchinfo": {
+        "children": [
+          "flex-layout.col#productCount",
+          "flex-layout.row#orderByAndSwitcher"
+        ]
+      },
+    
+      "flex-layout.col#productCount": {
+        "children": ["total-products.v2"],
+        "props": {
+          "blockClass": "productCountCol"
+        }
+      },
+    
+      "flex-layout.row#orderByAndSwitcher": {
+        "children": ["order-by.v2", "gallery-layout-switcher"],
+        "props": {
+          "horizontalAlign": "right",
+          "preventHorizontalStretch": true,
+          "blockClass": "orderByAndSwitcher",
+          "colGap": 3
+        }
+      },
+
+      "gallery-layout-switcher": {
+        "children": [
+          /*
+           * For accessbility to work properly,
+           * It's important to define the options in the same order as the layouts
+           */
+          "gallery-layout-option#grid",
+          "gallery-layout-option#list"
+        ]
+      },
+
+      "gallery-layout-option#grid": {
+        "props": {
+          "name": "grid"
+        },
+        "children": [
+          "icon-grid",
+          "responsive-layout.desktop#text__option--grid"
+        ]
+      },
+
+      "responsive-layout.desktop#text__option--grid": {
+        "children": [
+          "rich-text#option-grid"
+        ]
+      },
+
+      "rich-text#option-grid": {
+        "props": {
+          "text": "Grid",
+          "textColor": "c-auto",
+          "blockClass": "layout-option"
+        }
+      },
+
+      "gallery-layout-option#list": {
+        "props": {
+          "name": "list"
+        },
+        "children": [
+          "icon-inline-grid",
+          "responsive-layout.desktop#textOptionList"
+        ]
+      },
+
+      "responsive-layout.desktop#textOptionList": {
+        "children": [
+          "rich-text#option-list"
+        ]
+      },
+
+      "rich-text#option-list": {
+        "props": {
+          "text": "List",
+          "textColor": "c-auto",
+          "blockClass": "layout-option"
+        }
+      },
+    
+      "flex-layout.row#fetchprevious": {
+        "props": {
+          "marginBottom": 3
+        },
+        "children": ["search-fetch-previous"]
+      },
+    
+      "search-fetch-previous": {
+        "props": {
+          "htmlElementForButton": "a"
+        }
+      },
+    
+      "flex-layout.row#fetchmore": {
+        "props": {
+          "marginTop": 3
+        },
+        "children": ["search-fetch-more"]
+      },
+    
+      "search-fetch-more": {
+        "props": {
+          "htmlElementForButton": "a"
+        }
+      },
+    
+      "flex-layout.row#products": {
+        "children": [
+          "search-content"
+        ]
+      },
+    
+      "search-content": {
+        "blocks": [
+          "gallery",
+          "not-found"
+        ]
+      },
+
+      "gallery": {
+        "props": {
+          "layouts": [
+            {
+              "name": "grid",
+              "component": "GridSummary",
+              "itemsPerRow": {
+                "(min-width:1300px)": 4,
+                "desktop": 3,
+                "tablet": 3,
+                "phone": 2
+              }
+            },
+            {
+              "name": "list",
+              "component": "ListSummary",
+              "itemsPerRow": 1
+            }
+          ],
+          "ListSummary": "product-summary.shelf#list__layout",
+          "GridSummary": "product-summary.shelf"
+        }
+      }
+    
+}
