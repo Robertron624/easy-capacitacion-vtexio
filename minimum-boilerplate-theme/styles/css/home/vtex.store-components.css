@@ -13,9 +13,9 @@
     height: 348px;
 }
 
-.imageElementLink--combos-banner{
-    /* min-width: 492px; */
-    min-height: 47px;
+.imageElement--combos-banner{
+    min-width: 492px;
+    height: 440px;
 }
 
 .imageElement--promise{

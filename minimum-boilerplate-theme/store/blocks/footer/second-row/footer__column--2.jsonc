@@ -1,6 +1,6 @@
 {
     "flex-layout.col#footer__row--2--column--2":{
-        "title": "Easy column",
+        "title": "Callcenter column",
         "props": {
           "blockClass":[
             "footer__column"

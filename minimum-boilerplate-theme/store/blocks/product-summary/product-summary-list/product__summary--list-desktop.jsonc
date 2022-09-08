@@ -12,12 +12,11 @@
             "blockClass": "summary-list-desktop"
           },
           "children": [
-            "flex-layout.row#summary__left--list-desktop",
-            "flex-layout.col#summary__right--list-desktop"
+            "flex-layout.col#summary__left--list-desktop"
           ] 
     },
 
-    "flex-layout.row#summary__left--list-desktop": {
+    "flex-layout.col#summary__left--list-desktop": {
         "props": {
           "blockClass": "summary-left-list-desktop",
           "colSizing": "auto",
@@ -53,8 +52,10 @@
         "children": [
           "product-brand#summary__list--desktop",
           "product-summary-name#summary__list--desktop",
-          "flex-layout.col#product__rating",
-          "flex-layout.row#product__specifications"
+          "flex-layout.row#savings__summary--list-desktop",
+          "flex-layout.row#price__summary--list-desktop",
+          "flex-layout.row#buyButtons__summary--list-desktop" 
+          // "flex-layout.col#product__rating",
         ]
       },
 
@@ -77,18 +78,6 @@
         ]
     },
 
-    "flex-layout.col#summary__right--list-desktop": {
-        "props": {
-          "blockClass": "summaryRightListDesktop",
-          "preventVerticalStretch": true
-        },
-        "children": [
-          "flex-layout.row#savings__summary--list-desktop",
-          "flex-layout.col#price__summary--list-desktop",
-          "flex-layout.row#buyButtons__summary--list-desktop" // FALTA ESE
-        ]
-    },
-
     "flex-layout.row#savings__summary--list-desktop": {
         "props": {
           "colSizing": "auto",
@@ -108,7 +97,7 @@
         }
     },
 
-    "flex-layout.col#price__summary--list-desktop": {
+    "flex-layout.row#price__summary--list-desktop": {
         "children": [
           "product-selling-price#summary",
           "product-list-price#summary"
@@ -117,11 +106,10 @@
 
     "flex-layout.row#buyButtons__summary--list-desktop": {
         "props": {
-          "colSizing": "auto",
+          "colSizing": "equal",
           "colGap": 5
         },
         "children": [
-          "add-to-cart-button",
           "flex-layout.row#buyNow__button"
         ]
     },   
@@ -137,7 +125,7 @@
 
     "add-to-cart-button#buyNow": {
         "props": {
-          "text": "BUY NOW",
+          "text": "AGREGAR",
           "isOneClickBuy": true,
           "onClickEventPropagation": "enabled",
           "blockClass": "buyNow"

@@ -5,3 +5,11 @@
 .productNameContainer{
     max-height: 1.188rem;
 }
+
+.element :global(.vtex-button){
+    visibility: hidden;
+}
+
+.element:hover :global(.vtex-button){
+    visibility: visible;
+}

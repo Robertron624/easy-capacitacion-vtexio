@@ -49,7 +49,7 @@
       "slider-layout#home__slider": {
         "title": "Main home slider",
         "props": {
-          "fullWidth": true,
+          "fullWidth": false,
           "blockClass":["slider-home"],
           "showNavigationArrows": "desktopOnly",
           "infinite": true,

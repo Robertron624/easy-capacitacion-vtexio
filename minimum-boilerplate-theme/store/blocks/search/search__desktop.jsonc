@@ -43,6 +43,20 @@
           "blockClass": "filterCol"
         }
       },
+
+      // "filter-navigator.v3":{
+      //   "blocks": ["sidebar-close-button"],
+      //   "props": {
+      //       "truncateFilters": true,
+      //       "showClearByFilter": true,
+      //       "fullWidthOnMobile": true,
+      //       "navigationTypeOnMobile": "collapsible",
+      //       "appliedFiltersOverview": "show",
+      //       "totalProductsOnMobile": "show",
+      //       "updateOnFilterSelectionOnMobile": true,
+      //       "priceRangeLayout": "inputAndSlider"
+      //   }
+      // },
     
       "flex-layout.col#content": {
         "children": [
@@ -94,7 +108,10 @@
 
       "gallery-layout-option#grid": {
         "props": {
-          "name": "grid"
+          "name": "grid",
+          "blockClass":[
+            "search-desktop"
+          ]
         },
         "children": [
           "icon-grid",
@@ -118,7 +135,10 @@
 
       "gallery-layout-option#list": {
         "props": {
-          "name": "list"
+          "name": "list",
+          "blockClass":[
+            "search-desktop"
+          ]
         },
         "children": [
           "icon-inline-grid",
@@ -183,7 +203,7 @@
         "props": {
           "layouts": [
             {
-              "name": "grid",
+              "name": "grid-desktop",
               "component": "GridSummary",
               "itemsPerRow": {
                 "(min-width:1300px)": 4,
@@ -199,7 +219,7 @@
             }
           ],
           "ListSummary": "product-summary.shelf#list__layout",
-          "GridSummary": "product-summary.shelf"
+          "GridSummary": "product-summary.shelf#list__layout"
         }
       }
     

@@ -7,8 +7,8 @@
       "children": [
         "flex-layout.col#footer__row--2-title",
         "flex-layout.col#footer__row--2--column--2",
-        "flex-layout.col#footer__row--2--column--3",
-        "image#callcenter__logo"        
+        "flex-layout.col#footer__row--2--column--3",       
+        "flex-layout.col#footer__row--2--column--4"     
       ]
   },
 
@@ -33,6 +33,13 @@
         "contactanos-title"
       ]
     }
+  },
+
+  "flex-layout.col#footer__row--2--column--4":{
+    "title": "Callcenter logo column",
+    "children": [
+      "image#callcenter__logo"
+    ]
   },
 
   "image#callcenter__logo":{

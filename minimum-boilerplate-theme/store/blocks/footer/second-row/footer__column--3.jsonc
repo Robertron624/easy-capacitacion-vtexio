@@ -1,6 +1,6 @@
 {
     "flex-layout.col#footer__row--2--column--3":{
-        "title": "Easy column",
+        "title": "Telephone sales column",
         "props": {
           "blockClass":[
             "footer__column"

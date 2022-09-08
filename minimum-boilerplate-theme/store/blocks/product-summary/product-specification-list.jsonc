@@ -7,11 +7,11 @@
 
     "product-specification#summary":{
         "children": [
-            "flex-layout.row#summary__specifications--values"
+            "flex-layout.col#summary__specifications--values"
         ]
     },
 
-    "flex-layout.row#summary__specifications--values":{
+    "flex-layout.col#summary__specifications--values":{
         "props": {
             "preventHorizontalStretch": true,
             "colGap": 3
