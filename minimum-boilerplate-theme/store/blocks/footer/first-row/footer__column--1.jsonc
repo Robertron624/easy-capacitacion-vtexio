@@ -7,12 +7,22 @@
         ]
       },
       "children": [
+        "whatsapp-button",
         "image#easy__logo",
         "rich-text#easy__slogan",
         "social-networks"
       ]
     },
     
+
+    "whatsapp-button":{
+      "props":{
+        "logo": "logo-easy.png",
+        "phone": "321890421",
+        "message": "Mensaje desde el tema"
+      }
+    },
+
   "image#easy__logo": {
       "title": "Easy logo",
       "props": {
