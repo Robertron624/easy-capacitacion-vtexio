@@ -72,7 +72,7 @@
     "image#payment__methods": {
         "title": "Payment methods images",
         "props": {
-            "src": "assets/footer/Pata Medios de Pago-45.webp",
+            "src": "assets/footer/Pata20Medios20de20Pago-45.webp",
             "maxWidth": "300px"
         }
     }

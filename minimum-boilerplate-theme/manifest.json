@@ -1,6 +1,6 @@
 {
-  "vendor": "itgloberspartnercl",
-  "name": "store-theme",
+  "vendor": "vtex",
+  "name": "minimum-theme",
   "version": "0.1.1",
   "builders": {
     "styles": "2.x",

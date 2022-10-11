@@ -72,7 +72,7 @@
             "blockClass":[
                 "promise"
             ],
-            "src": "assets/home/promises/icono-envio.jpg"
+            "src": "assets/home/promises/icono-envio.webp"
         }
     },
 
@@ -120,7 +120,7 @@
             "blockClass":[
                 "promise"
             ],
-            "src": "assets/home/promises/icono-recogida.jpg"
+            "src": "assets/home/promises/icono-recogida.webp"
         }
     },
 
@@ -168,7 +168,7 @@
             "blockClass":[
                 "promise"
             ],
-            "src": "assets/home/promises/icono-seguro.jpg"
+            "src": "assets/home/promises/icono-seguro.webp"
         }
     },
 

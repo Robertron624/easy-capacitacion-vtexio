@@ -6,11 +6,11 @@
           "colSizing": "auto"
         },
         "children": [
-          "flex-layout.col#promotions__5"
+          "flex-layout.col#promotions__6"
         ]
       },
     
-      "flex-layout.col#promotions__5": {
+      "flex-layout.col#promotions__6": {
         "props": {
           "blockClass":[
             "home-promos"
@@ -18,15 +18,16 @@
           "width":"100%"
         },
         "children": [
-          "rich-text#promo__title--5",
-          "flex-layout.row#promos__images--5"
+          "rich-text#promo__title--6",
+          "flex-layout.row#promos__images--6--row-1",
+          "flex-layout.row#promos__images--6--row-2"
         ]
       },
     
-      "rich-text#promo__title--5": {
-        "title": "promo title 5",
+      "rich-text#promo__title--6": {
+        "title": "promo title 6",
         "props": {
-          "text": "Pisos para renovar tu hogar",
+          "text": "Herramientas",
           "textAlignment": "CENTER",
           "textPosition": "LEFT",
           "blockClass":[
@@ -35,25 +36,25 @@
         }
       },
     
-      "flex-layout.row#promos__images--5":{
+      "flex-layout.row#promos__images--6--row-1":{
         "props": {
           "fullWidth": true,
           "colSizing": "auto"
         },
         "children": [
-          "image#promo__5--1",
-          "image#promo__5--2",
-          "image#promo__5--3"
+          "image#promo__6--1",
+          "image#promo__6--2",
+          "image#promo__6--3"
         ]
       },
     
-      "image#promo__5--1":{
+      "image#promo__6--1":{
         "props": {
           "blockClass":[
             "home-promo",
             "left-side"
           ],
-          "src": "assets/home/floors/pisos_ceramicos-18842.webp",
+          "src": "assets/home/promos/promos_5/taladros-19570.webp",
           "link": {
             "openNewTab": false,
             "title": "",
@@ -62,13 +63,13 @@
         }
       },
     
-      "image#promo__5--2":{
+      "image#promo__6--2":{
         "props": {
           "blockClass":[
             "home-promo",
             "left-side"
           ],
-          "src": "assets/home/floors/porcelanatos-18843.webp",
+          "src": "assets/home/promos/promos_5/otras_herramientas_electricas-19571.webp",
           "link": {
             "openNewTab": false,
             "title": "",
@@ -77,13 +78,70 @@
         }
       },
     
-      "image#promo__5--3":{
+      "image#promo__6--3":{
         "props": {
           "blockClass":[
             "home-promo",
             "right-side"
           ],
-          "src": "assets/home/floors/pisos_laminados-18844.webp",
+          "src": "assets/home/promos/promos_5/compresores-19572.webp",
+          "link": {
+            "openNewTab": false,
+            "title": "",
+            "url": "#"
+          }
+        }
+      },
+
+      "flex-layout.row#promos__images--6--row-2":{
+        "props": {
+            "fullWidth": true,
+            "colSizing": "auto"
+          },
+          "children": [
+            "image#promo__6--4",
+            "image#promo__6--5",
+            "image#promo__6--6"
+          ]
+      },
+
+      "image#promo__6--4":{
+        "props": {
+          "blockClass":[
+            "home-promo",
+            "right-side"
+          ],
+          "src": "assets/home/promos/promos_5/hidrolavadoras-19653.webp",
+          "link": {
+            "openNewTab": false,
+            "title": "",
+            "url": "#"
+          }
+        }
+      },
+    
+      "image#promo__6--5":{
+        "props": {
+          "blockClass":[
+            "home-promo",
+            "left-side"
+          ],
+          "src": "assets/home/promos/promos_5/pistolas_para_pintar-19574.webp",
+          "link": {
+            "openNewTab": false,
+            "title": "",
+            "url": "#"
+          }
+        }
+      },
+    
+      "image#promo__6--6":{
+        "props": {
+          "blockClass":[
+            "home-promo",
+            "left-side"
+          ],
+          "src": "assets/home/promos/promos_5/herramientas_manuales-19575.webp",
           "link": {
             "openNewTab": false,
             "title": "",

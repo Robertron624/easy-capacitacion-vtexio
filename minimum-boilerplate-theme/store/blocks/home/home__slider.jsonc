@@ -19,27 +19,27 @@
           "props": {
             "images": [
               {
-                  "image": "assets/home/descuento_muebles_interior_exterior-19450.webp",
+                  "image": "assets/home/slider/descuento_muebles_colchones_fantasia-19787.webp",
                   "description": "promo 1"
               },
               {
-                "image": "assets/home/banner_19433.webp",
+                "image": "assets/home/slider/descuento_electrodomesticos-19788.webp",
                 "description": "promo 2"
               },
               {
-                "image": "assets/home/descuento_llantas_baterias-19434.webp",
+                "image": "assets/home/slider/orange_days_outdoor-19791.webp",
                 "description": "promo 3"
               },
               {
-                "image": "assets/home/descuento_bicicletas-19432.webp",
+                "image": "assets/home/slider/recurrente_martes_web_puertas_ferreteria-18655.webp",
                 "description": "promo 4"
               },
               {
-                "image": "assets/home/catalogo_renueva_mas-19396.webp",
+                "image": "assets/home/slider/catalogo_pinturas-19789.webp",
                 "description": "promo 5"
               },
               {
-                "image": "assets/home/campana_lavadora-19452.webp",
+                "image": "assets/home/slider/recurrente_martes_organizacion_textil_menaje-18657.webp",
                 "description": "promo 6"
               }
             ]

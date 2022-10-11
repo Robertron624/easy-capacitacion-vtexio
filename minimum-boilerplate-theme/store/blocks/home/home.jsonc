@@ -8,7 +8,6 @@
       "flex-layout.row#promotions__3",
       "flex-layout.row#promotions__4",
       "flex-layout.row#promotions__5",
-      "flex-layout.row#promotions__6",
       "flex-layout.row#home-videos",
       "flex-layout.row#promises"
     ]
@@ -71,7 +70,7 @@
       "blockClass":[
         "combos-banner"
       ],
-      "src": "assets/home/combos/combos-19405.webp",
+      "src": "assets/home/descuento_pequeno_electro-19782.webp",
       "link": {
         "openNewTab": false,
         "title": "",
