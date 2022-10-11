@@ -45,7 +45,7 @@
             "blockClass":[
                 "redes"
             ],
-            "src": "assets/CENTRO_DE_AYUDA.png",
+            "src": "assets/header/CENTRO_DE_AYUDA.png",
             "link": {
                 "openNewTab": true,
                 "url": "#"
@@ -59,7 +59,7 @@
             "blockClass":[
                 "redes"
             ],
-            "src": "assets/ASISTENCIA_WEB.png",
+            "src": "assets/header/ASISTENCIA_WEB.png",
             "link": {
                 "openNewTab": true,
                 "url": "#"
@@ -73,7 +73,7 @@
             "blockClass":[
                 "redes"
             ],
-            "src": "assets/TIENDAS.png",
+            "src": "assets/header/TIENDAS.png",
             "link": {
                 "openNewTab": true,
                 "url": "#"
@@ -87,7 +87,7 @@
             "blockClass":[
                 "redes"
             ],
-            "src": "assets/VENTA_TELEFONICA.webp",
+            "src": "assets/header/VENTA_TELEFONICA.webp",
             "link": {
                 "openNewTab": true,
                 "url": "#"
@@ -101,7 +101,7 @@
             "blockClass":[
                 "redes"
             ],
-            "src": "assets/VENTA_EMPRESA.png",
+            "src": "assets/header/VENTA_EMPRESA.png",
             "link": {
                 "openNewTab": true,
                 "url": "#"
@@ -115,7 +115,7 @@
             "blockClass":[
                 "redes"
             ],
-            "src": "assets/MUNDO_EXPERTO.webp",
+            "src": "assets/header/MUNDO_EXPERTO.webp",
             "link": {
                 "openNewTab": true,
                 "url": "#"
@@ -166,7 +166,7 @@
         "props": {
           "title": "Logo",
           "href": "/",
-          "url": "assets/logo-easy.webp",
+          "url": "assets/header/logo-easy.webp",
           "width": "100"
         }
       }

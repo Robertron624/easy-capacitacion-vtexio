@@ -42,14 +42,14 @@
   "image#top-banner-1":{
     "title": "Top banner image",
     "props": {
-      "src": "assets/easy-Venta-telefonica.webp"
+      "src": "assets/header/easy-Venta-telefonica.webp"
     }
   },
 
   "image#top-banner-2":{
     "title": "Top banner image",
     "props": {
-      "src": "assets/Banner easy 11-15 Agosto.png"
+      "src": "assets/header/Banner easy 11-15 Agosto.png"
     }
   },
 
