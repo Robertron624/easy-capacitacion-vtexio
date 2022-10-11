@@ -20,66 +20,9 @@
             "width":"100%"
         },
         "children": [
-            "list-context.bullet-group",
             "rich-text#promises__title",
             "flex-layout.row#promises-images"
         ]
-    },
-
-    "list-context.bullet-group":{
-        "title" : "Mi contexto de lista de bullets",
-        // "children": ["slider-layout#bullets-group"],
-        "props":{
-            "bullets" :
-            [
-                {
-                    "image" : "assets/bullets/pc-1.jpg",
-                    "titleBullet": "Computadores!",
-                    "link" :{
-                        "url": "/"
-                    }
-                },
-                {
-                    "image" : "assets/bullets/prenda-1.png",
-                    "titleBullet": "Prendas!",
-                    "link" :{
-                        "url": "/"
-                    }
-                },
-                {
-                    "image" : "assets/bullets/prenda-1.png",
-                    "titleBullet": "Prendas!",
-                    "link" :{
-                        "url": "/"
-                    }
-                },
-                {
-                    "image" : "assets/bullets/prenda-1.png",
-                    "titleBullet": "Prendas!",
-                    "link" :{
-                        "url": "/"
-                    }
-                },
-                {
-                    "image" : "assets/bullets/prenda-1.png",
-                    "titleBullet": "Prendas!",
-                    "link" :{
-                        "url": "/"
-                    }
-                }
-            ]
-        }
-    },
-
-    "slider-layout#bullets-group":{
-        "props": {
-            "itemsPerPage": {
-                "desktop": 5,
-                "tablet": 5,
-                "phone": 5
-            },
-            "infinite": true
-        }
     },
 
     "rich-text#promises__title": {

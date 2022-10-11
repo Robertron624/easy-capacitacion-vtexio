@@ -19,10 +19,32 @@
   text-decoration: none;
 }
 
+.bullet__container::-webkit-scrollbar{
+  height: 4px;
+}
+
+.bullet__container::-webkit-scrollbar-thumb,
+.bullet__container::-webkit-scrollbar-track {
+  background-clip: padding-box;
+  background-color: #dfdfdf;
+  border-right: 16px solid transparent;
+  border-left: 16px solid transparent;
+}
+
+.bullet__container::-webkit-scrollbar-thumb {
+  background-color: #a02525;
+}
+
+.bullet__container{
+  display: flex;
+  overflow: auto;
+}
+
 @media screen and (min-width){
   .bullet__item
   .bullet__item--image
   {
     width: 100px;
+    min-width: 100px;
   }
 }
