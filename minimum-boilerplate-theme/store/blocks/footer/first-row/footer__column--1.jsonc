@@ -17,9 +17,9 @@
 
     "whatsapp-button":{
       "props":{
-        "logo": "logo-easy.png",
+        "logo": "https://1000marcas.net/wp-content/uploads/2019/11/WhatsApp-logo-600x338.png",
         "phone": "321890421",
-        "message": "Mensaje desde el tema"
+        "message": "Mensaje desde el temaaaaaa"
       }
     },
 

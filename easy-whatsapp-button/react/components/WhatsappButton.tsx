@@ -1,34 +1,33 @@
 import React from 'react'
 import PropTypes  from 'prop-types'
 
+
 type Props = {
   logo: string // whatsapp.png
   phone: string // 3192312314
   message: string // Comunicandote con itglobers
+  width: number
+  height: number
 }
 
-export const WhatsappButton = ({logo, phone, message}:Props) => {
-  
-  console.log('GTM logo -> ',logo)
-  console.log('GTM phone -> ',phone)
-  console.log('GTM message -> ',message)
+export const WhatsappButton = ({logo, phone, message, width, height}:Props) => {
+
 
   const formattedMessage = message.replace(/ /g, '%20')
-
-  console.log('Mi mensaje formateado es -> ',formattedMessage)
 
   return (
     <>
       <div className='fixed bottom-2 right-2 flex flexColumn'>
-        <a 
+        <a
         href={`https://wa.me/${phone}?text=${formattedMessage}`}
         target= "_blank"
         rel='noreferrer noopener'
         >
-          {logo}
+          <img src={logo} alt="whatsapp-logo" width={width} height={height}/>
+          <p>{message}</p>
         </a>
       </div>
-    
+
     </>
   )
 }
@@ -36,13 +35,17 @@ export const WhatsappButton = ({logo, phone, message}:Props) => {
 WhatsappButton.propTypes = {
   logo: PropTypes.string.isRequired,
   phone: PropTypes.string.isRequired,
-  message: PropTypes.string
+  message: PropTypes.string,
+  width: PropTypes.number,
+  height: PropTypes.number
 }
 
 WhatsappButton.defaultProps = {
   logo: "logo.png",
   phone: "3162445583",
-  message: "Este es el mensaje!"
+  message: "Este es el mensaje!",
+  width: 80,
+  height: 80
 }
 
 WhatsappButton.schema = {
