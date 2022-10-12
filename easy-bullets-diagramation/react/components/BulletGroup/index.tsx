@@ -24,8 +24,6 @@ const BulletGroup = ({
 
   const {list} = useListContext() || []
 
-  console.log('Bullets -> ', bullets);
-
   const bulletsGroup = getBulletsAsTSXList(bullets)
 
   const newListContextValue = list.concat(bulletsGroup)
