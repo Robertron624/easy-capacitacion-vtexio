@@ -4,6 +4,7 @@
           "flex-layout.row#top-banner",
           "flex-layout.row#top-header",
           "flex-layout.row#content-header",
+          "department-search",
           "flex-layout.row#menus-header"
         ]
       },
