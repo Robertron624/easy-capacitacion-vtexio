@@ -1,12 +1,16 @@
 import React from "react";
 import { useProduct } from 'vtex.product-context'
 import { useOrderForm } from 'vtex.order-manager/OrderForm'
+import { generateBlockClass } from "@vtex/css-handles";
+import styles from './styles.css'
 
 import ButtonGroup from "./ButtonGroup";
 // import Totalizers from "./Totalizers";
 // import ProductGroup from "./ProductGroup";
 
-const AddToCartInfo = () => {
+const AddToCartInfo = ({blockClass}:any) => {
+  const container = generateBlockClass(styles.container, blockClass),
+        container__item = generateBlockClass(styles.container__item, blockClass)
 
   const productInfo = useProduct();
 
@@ -21,12 +25,12 @@ const AddToCartInfo = () => {
 
 
   return(
-    <>
+    <div className={container}>
       {/* <ProductGroup products={items} /> */}
       {
         items.map((item:any, index:number)=>{
           return(
-            <div key={index}>
+            <div key={index} className={container__item}>
               <div>
                 <img src={item.imageUrls.at1x} alt="product image" />
               </div>
@@ -47,7 +51,7 @@ const AddToCartInfo = () => {
 
 
       <ButtonGroup /> {/* Acciones */}
-    </>
+    </div>
   )
 }
 
