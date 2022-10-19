@@ -13,6 +13,20 @@
     ]
   },
 
+  "image#testing-image":{
+    "props": {
+      "src": "https://prod-discovery.edx-cdn.org/media/course/image/b43f2cde-b38f-4717-8399-033f0aba61f4-bd6f44692f21.small.png"
+    }
+  },
+
+  "rich-text#texting": {
+    "props": {
+      "text": "HOLA, PROBANDOOOO !!!!",
+      "font": "t-body",
+      "textColor": "c-on-base"
+    }
+  },
+
 
   "flex-layout.row#combos":{
     "title": "Main combos row",

@@ -11,35 +11,12 @@
       "flex-layout.row#top-banner": {
         "title": "Top banner",
         "children": [
-          "slider-layout#top-banner"
+          "image#top-banner-1"
         ],
         "props": {
           "fullWidth": true,
           "blockClass": ["top-banner"]
         }
-      },
-    
-      "slider-layout#top-banner": {
-        "title": "Top banner slider",
-        "props": {
-          "fullWidth": true,
-          "blockClass":["top-banner"],
-          "showNavigationArrows": "never",
-          "showPaginationDots": "never",
-          "infinite": true,
-          "autoplay": {
-            "stopOnHover": true,
-            "timeout": 4000
-          },
-          "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "phone": 1
-          }
-        },
-        "children": [
-          "image#top-banner-1"
-        ]
       },
     
     

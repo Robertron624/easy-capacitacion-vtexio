@@ -119,16 +119,40 @@
           "blockClass": "buy-now-button"
         },
         "children": [
-          "add-to-cart-button#buyNow"
+          "modal-trigger#add-to-cart-info"
         ]
     },
 
+    "modal-trigger#add-to-cart-info":{
+      "children":[
+          "add-to-cart-button#buyNow",
+          "modal-layout#add-to-cart-info"
+      ],
+      "props": {
+          "customPixelEventId": "addToCart"
+      }
+    },
+
     "add-to-cart-button#buyNow": {
+      "props": {
+        "text": "AGREGAR",
+        "isOneClickBuy": false,
+        "onClickEventPropagation": "enabled",
+        "blockClass": "buyNow"
+      }
+  },
+  
+    "modal-layout#add-to-cart-info":{
+      "children":[
+          "modal-header#add-to-cart-info",
+          "add-to-cart-info"
+      ]
+    },
+
+    "modal-header#add-to-cart-info":{
         "props": {
-          "text": "AGREGAR",
-          "isOneClickBuy": true,
-          "onClickEventPropagation": "enabled",
-          "blockClass": "buyNow"
+          "showCloseButton": true,
+          "iconCloseSize": 32
         }
     }
 }
