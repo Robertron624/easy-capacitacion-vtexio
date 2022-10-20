@@ -2,6 +2,7 @@
   "store.home": { 
     "blocks": [
       "flex-layout.row#slider__home",
+      "quick-order",
       // "pdf-reader",
       "flex-layout.row#promotions__1",
       "flex-layout.row#combos",

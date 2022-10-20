@@ -1,0 +1,6 @@
+query($sku: sku){
+  product(identifier: {field: sku, value: $sku}){
+    productId,
+    productName
+  }
+}
