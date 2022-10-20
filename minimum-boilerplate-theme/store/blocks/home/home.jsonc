@@ -2,6 +2,7 @@
   "store.home": { 
     "blocks": [
       "flex-layout.row#slider__home",
+      // "pdf-reader",
       "flex-layout.row#promotions__1",
       "flex-layout.row#combos",
       "flex-layout.row#promotions__2",
@@ -13,20 +14,13 @@
     ]
   },
 
-  "image#testing-image":{
-    "props": {
-      "src": "https://prod-discovery.edx-cdn.org/media/course/image/b43f2cde-b38f-4717-8399-033f0aba61f4-bd6f44692f21.small.png"
+  "pdf-reader":{
+    "props":{
+      "pdfUrl": "assets/documents/sample.pdf",
+      "width": 500,
+      "height": 800
     }
   },
-
-  "rich-text#texting": {
-    "props": {
-      "text": "HOLA, PROBANDOOOO !!!!",
-      "font": "t-body",
-      "textColor": "c-on-base"
-    }
-  },
-
 
   "flex-layout.row#combos":{
     "title": "Main combos row",
