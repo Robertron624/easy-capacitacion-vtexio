@@ -2,7 +2,8 @@
   "store.home": { 
     "blocks": [
       "flex-layout.row#slider__home",
-      "quick-order",
+      "custom-grid",
+      // "quick-order",
       // "pdf-reader",
       "flex-layout.row#promotions__1",
       "flex-layout.row#combos",
@@ -14,6 +15,44 @@
       "flex-layout.row#promises"
     ]
   },
+  "custom-grid":{
+    "children": [
+      "rich-text#custom-grid-1",
+      "rich-text#custom-grid-2",
+      "rich-text#custom-grid-3",
+      "rich-text#custom-grid-4",
+      "rich-text#custom-grid-5"
+    ]
+  },
+
+
+  "rich-text#custom-grid-1":{
+    "props": {
+      "text": "Grilla 1"
+    }
+  },
+  "rich-text#custom-grid-2":{
+    "props": {
+      "text": "Grilla 2"
+    }
+  },
+
+  "rich-text#custom-grid-3":{
+    "props": {
+      "text": "Grilla 3"
+    }
+  },
+  "rich-text#custom-grid-4":{
+    "props": {
+      "text": "Grilla 4"
+    }
+  },
+  "rich-text#custom-grid-5":{
+    "props": {
+      "text": "Grilla 5"
+    }
+  },
+
 
   "pdf-reader":{
     "props":{
