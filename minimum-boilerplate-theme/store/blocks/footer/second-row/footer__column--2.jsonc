@@ -1,0 +1,123 @@
+{
+    "flex-layout.col#footer__row--2--column--2":{
+        "title": "Callcenter column",
+        "props": {
+          "blockClass":[
+            "footer__column"
+          ]
+        },
+        "children": [
+          "rich-text#call__center--title",
+          "rich-text#call__center--customer",
+          "rich-text#call__center--schedules",
+          "rich-text#call__center--schedules-weekends",
+          "rich-text#call__center--bogota-cc",
+          "rich-text#call__center--email-cc",
+          "rich-text#call__center--cencosud-nit",
+          "rich-text#call__center--address",
+          "rich-text#call__center--judicial-email",
+          "rich-text#call__center--pqrs"
+
+        ]
+      },
+
+      "rich-text#call__center--title": {
+        "title": "Call center title",
+        "props": {
+          "text": "CALL CENTER",
+          "blockClass":[
+            "footer-title"
+          ]
+        }
+      },
+
+      "rich-text#call__center--customer":{
+        "title": "Customer service",
+        "props": {
+            "text": "Servicio al Cliente",
+            "blockClass":[
+                "footer-nolink"
+            ]
+        }
+      },
+
+      "rich-text#call__center--schedules":{
+        "title": "Schedules weekdays",
+        "props": {
+            "text": "Horarios: 8:00 am a 6:00 pm Lunes a Sábado",
+            "blockClass":[
+                "footer-nolink"
+            ]
+        }
+      },
+
+      "rich-text#call__center--schedules-weekends":{
+        "title": "Schedules weekends",
+        "props": {
+            "text": "8:00 am a 5:00 pm Domingos y Festivos",
+            "blockClass":[
+                "footer-nolink"
+            ]
+        }
+      },
+
+      "rich-text#call__center--bogota-cc":{
+        "title": "Bogota callcenter telephone",
+        "props": {
+            "text": " Bogotá: (601) 7460340",
+            "blockClass":[
+                "footer-nolink"
+            ]
+        }
+      },
+
+      "rich-text#call__center--email-cc":{
+        "title": "Callcenter email",
+        "props": {
+            "text": "[clientes@easy.com.co](/#)",
+            "blockClass":[
+                "footer-link"
+            ]
+        }
+      },
+      
+      "rich-text#call__center--cencosud-nit":{
+        "title": "Cencosud col NIT",
+        "props": {
+            "text": "CENCOSUD COLOMBIA S.A., Nit. 900.155.107-1",
+            "blockClass":[
+                "footer-nolink"
+            ]
+        }
+      },
+
+      "rich-text#call__center--address":{
+        "title": "Bogota callcenter address",
+        "props": {
+            "text": "Avenida 9 # 125-30, Bogotá, Colombia",
+            "blockClass":[
+                "footer-nolink"
+            ]
+        }
+      },
+
+      "rich-text#call__center--judicial-email":{
+        "title": "Judicial notifications email",
+        "props": {
+            "text": "Correo de notificaciones judiciales: [notificaciones@cencosud.com.co](mailto:a@gmail.com)",
+            "blockClass":[
+                "footer-nolink"
+            ]
+        }
+      },
+
+      "rich-text#call__center--pqrs":{
+        "title": "PQRs",
+        "props": {
+            "text": "[PQRs](/#)",
+            "blockClass":[
+                "footer-link"
+            ]
+        }
+      }
+}

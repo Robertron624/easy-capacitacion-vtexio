@@ -1,0 +1,202 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#slider__home",
+      "custom-grid",
+      // "quick-order",
+      // "pdf-reader",
+      "flex-layout.row#promotions__1",
+      "flex-layout.row#combos",
+      "flex-layout.row#promotions__2",
+      "flex-layout.row#promotions__3",
+      "flex-layout.row#promotions__4",
+      "flex-layout.row#promotions__5",
+      "flex-layout.row#home-videos",
+      "flex-layout.row#promises"
+    ]
+  },
+  "custom-grid":{
+    "children": [
+      "rich-text#custom-grid-1",
+      "rich-text#custom-grid-2",
+      "rich-text#custom-grid-3",
+      "rich-text#custom-grid-4",
+      "rich-text#custom-grid-5"
+    ]
+  },
+
+
+  "rich-text#custom-grid-1":{
+    "props": {
+      "text": "Grilla 1"
+    }
+  },
+  "rich-text#custom-grid-2":{
+    "props": {
+      "text": "Grilla 2"
+    }
+  },
+
+  "rich-text#custom-grid-3":{
+    "props": {
+      "text": "Grilla 3"
+    }
+  },
+  "rich-text#custom-grid-4":{
+    "props": {
+      "text": "Grilla 4"
+    }
+  },
+  "rich-text#custom-grid-5":{
+    "props": {
+      "text": "Grilla 5"
+    }
+  },
+
+
+  "pdf-reader":{
+    "props":{
+      "pdfUrl": "assets/documents/sample.pdf",
+      "width": 500,
+      "height": 800
+    }
+  },
+
+  "flex-layout.row#combos":{
+    "title": "Main combos row",
+    "props": {
+      "blockClass": "home-combos",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#combo__shelf"
+    ]
+  },
+
+  "flex-layout.col#combo__shelf": {
+    "title": "Main combos colum",
+    "props": {
+      "blockClass":[
+        "shelf-combo"
+      ]
+    },
+    "children": [
+      "rich-text#combo__title",
+      "flex-layout.row#combos-container"
+    ]
+  },
+
+  "rich-text#combo__title": {
+    "title": "combo title",
+    "props": {
+      "text": "Renueva MÁS con estos COMBOS",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "blockClass":[
+        "promo-title"
+      ]
+    }
+  },
+
+  "flex-layout.row#combos-container": {
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "blockClass": [
+        "combos-row"
+      ]
+    },
+    "children": [
+      "image#combo__1",
+      "flex-layout.col#combos-slider-container"
+    ]
+  },
+
+  "image#combo__1":{
+    "props": {
+      "blockClass":[
+        "combos-banner"
+      ],
+      "src": "assets/home/descuento_pequeno_electro-19782.webp",
+      "link": {
+        "openNewTab": false,
+        "title": "",
+        "url": "#"
+      }
+    }
+  },
+
+  "flex-layout.col#combos-slider-container": {
+    "props": {
+      "blockClass":[
+        "combos-slider"
+      ]
+    },
+    "children": [
+      "list-context.product-list#home-combos"
+    ]
+  },
+
+  "list-context.product-list#home-combos":{
+    "props": {
+      "maxItems": 3
+    },
+    "blocks": [
+      "product-summary.shelf#home-combo"
+    ],
+    "children": [
+      "slider-layout#combos__slider"
+    ]
+  },
+
+  "product-summary.shelf#home-combo": {
+    "props": {
+      "priceBehavior": "default"
+    },
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button#home-shelf"
+    ]
+  },
+
+  "product-summary-image":{
+    "title": "Shelf image",
+    "props": {
+      "width":{
+        "desktop": 216
+      }
+    }
+  },
+
+  "add-to-cart-button#home-shelf":{
+    "title": "Add to cart button",
+    "props": {
+    "blockClass":[
+      "ho,e-shelf"
+    ],
+    "text": "AGREGAR"
+    }
+  },
+
+  "slider-layout#combos__slider":{
+    "props": {
+      "fullWidth": true,
+      "blockClass":["slider-combos"],
+      "showNavigationArrows": "desktopOnly",
+      "infinite": true,
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 4000
+      },
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      }
+    }
+  }
+
+}

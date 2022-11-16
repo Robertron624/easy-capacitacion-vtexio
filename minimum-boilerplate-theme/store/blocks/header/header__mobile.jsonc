@@ -1,0 +1,28 @@
+{
+    "header-layout.mobile": {
+        "children": ["sticky-layout#mobile"]
+      },
+      "sticky-layout#mobile": {
+        "title": "Sticky header mobile",
+        "children": ["flex-layout.row#mobile"]
+      },
+      "flex-layout.row#mobile": {
+        "title": "Main header mobile",
+        "children": [
+          "drawer",
+          "logo",
+          "flex-layout.col#spacer",
+          "login",
+          "minicart.v2"
+        ],
+        "props": {
+          "blockClass": "main-header-mobile",
+          "preventHorizontalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "fullWidth": true
+        }
+      },
+      "drawer": {
+        "children": []
+      }
+    }

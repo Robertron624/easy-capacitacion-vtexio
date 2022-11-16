@@ -1,0 +1,10 @@
+
+{
+    "store.custom#services":{
+        "path": "/services"
+    },
+
+    "store.custom#biosecurity":{
+        "path": "/biosecurity"
+    }
+}

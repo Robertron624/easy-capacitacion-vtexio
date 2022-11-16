@@ -1,0 +1,12 @@
+.galleryItem--grid-desktop{
+    max-width: 23.7% !important;
+}
+
+.filtersWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.filter__container--priceRange{
+    order: -1;
+}

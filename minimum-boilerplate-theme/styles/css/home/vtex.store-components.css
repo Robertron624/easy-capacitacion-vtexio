@@ -1,0 +1,24 @@
+.imageElement--home-promo{
+    width: 492px;
+    height: 477px;
+}
+
+.imageElement--left-side{
+    width: 301px;
+    height: 348px;
+}
+
+.imageElement--right-side{
+    width: 610px;
+    height: 348px;
+}
+
+.imageElement--combos-banner{
+    min-width: 492px;
+    height: 440px;
+}
+
+.imageElement--promise{
+    width: 70px;
+    height: 70px;
+}

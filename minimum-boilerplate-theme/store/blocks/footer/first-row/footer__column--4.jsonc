@@ -1,0 +1,104 @@
+{
+    "flex-layout.col#footer__row--1--column--4":{
+        "title": "Cencosud entreprises column",
+        "props": {
+          "blockClass":[
+            "footer__column"
+          ],
+          "preventVerticalStretch": true
+        },
+        "children": [
+          "rich-text#cencosud--title",
+          "flex-layout.row#cencosud__companies",
+          "flex-layout.row#totalcode"
+        ]
+      },
+
+      "rich-text#cencosud--title":{
+        "title": "Cencosud column title",
+        "props": {
+            "text": "Empresas Cencosud",
+            "blockClass":[
+                "footer-title"
+            ]
+        }
+      },
+
+      "flex-layout.row#cencosud__companies": {
+        "title": "Cencosud companies images",
+        "props": {
+            "blockClass": [
+                "cencosud-companies"
+            ],
+            "fullWidth": true,
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#jumbo",
+            "image#metro",
+            "image#easy",
+            "image#points"
+        ]
+      },
+
+      "image#jumbo": {
+        "title": "Jumbo logo",
+        "props": {
+            "src": "assets/footer/logo-jumbo.webp",
+            "blockClass":[
+                "cencosud-company"
+            ]
+        }
+      },
+
+      "image#metro": {
+        "title": "Metro logo",
+        "props": {
+            "src": "assets/footer/logo-metro.webp",
+            "blockClass":[
+                "cencosud-company"
+            ]
+        }
+      },
+
+      "image#easy": {
+        "title": "Easy logo",
+        "props": {
+            "src": "assets/footer/logo-easy.webp",
+            "blockClass":[
+                "cencosud-company"
+            ]
+        }
+      },
+
+      "image#points": {
+        "title": "Cencosud points logo",
+        "props": {
+            "src": "assets/footer/logo-puntos.webp",
+            "blockClass":[
+                "cencosud-company"
+            ]
+        }
+      },
+
+      "flex-layout.row#totalcode":{
+        "title": "Totalcode container",
+        "props": {
+            "blockClass": ["total-code"],
+            "fullWidth": false
+        },
+        "children": [
+            "image#totalcode"
+        ]
+      },
+
+      "image#totalcode":{
+        "title": "Totalcode logo",
+        "props": {
+            "src": "assets/footer/TotalCode-eCommerce.png",
+            "blockClass":[
+                "totalcode"
+            ]
+        }
+      }
+}

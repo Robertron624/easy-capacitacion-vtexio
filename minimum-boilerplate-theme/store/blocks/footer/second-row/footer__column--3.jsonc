@@ -1,0 +1,78 @@
+{
+    "flex-layout.col#footer__row--2--column--3":{
+        "title": "Telephone sales column",
+        "props": {
+          "blockClass":[
+            "footer__column"
+          ],
+          "preventVerticalStretch": true
+        },
+        "children": [
+            "rich-text#telephone__sales--title",
+            "rich-text#telephone__sales--schedules",
+            "rich-text#telephone__sales--bogota-phone",
+            "rich-text#telephone__sales--medellin-phone",
+            "rich-text#telephone__sales--colombia-phone"
+        ]
+      },
+
+    "rich-text#telephone__sales--title": {
+        "title": "Telephone sales title",
+        "props": {
+          "text": "Venta telefónica",
+          "blockClass":[
+            "footer-title"
+          ]
+        }
+      },
+
+      "rich-text#telephone__sales--schedules":{
+        "title": "Telephone sales shhedule",
+        "props": {
+            "text": "Horario: 8:00 am – 6:00 pm Lunes a Sábado",
+            "blockClass":[
+                "footer-nolink"
+            ]
+        }
+    },
+
+    "rich-text#telephone__sales--schedules-sundays":{
+        "title": "Telephone sales shhedule sundays",
+        "props": {
+            "text": "8:00 am – 5:00 pm Domingos",
+            "blockClass":[
+                "footer-nolink"
+            ]
+        }
+    },
+
+    "rich-text#telephone__sales--bogota-phone":{
+        "title": "Telephone number bogota",
+        "props": {
+            "text": "Bogotá: (601) 7460344",
+            "blockClass":[
+                "footer-nolink"
+            ]
+        }
+    },
+
+    "rich-text#telephone__sales--medellin-phone":{
+        "title": "Telephone number medellin",
+        "props": {
+            "text": "Medellín: (604) 6044775",
+            "blockClass":[
+                "footer-nolink"
+            ]
+        }
+    },
+
+    "rich-text#telephone__sales--colombia-phone":{
+        "title": "Telephone number rest of colombia",
+        "props": {
+            "text": "Resto del país: 018000180340",
+            "blockClass":[
+                "footer-nolink"
+            ]
+        }
+    }
+}

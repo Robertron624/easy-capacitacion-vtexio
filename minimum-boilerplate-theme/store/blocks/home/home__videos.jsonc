@@ -1,0 +1,94 @@
+{
+    "flex-layout.row#home-videos":{
+        "props": {
+          "blockClass": "home-promos",
+          "fullWidth": true,
+          "colSizing": "auto"
+        },
+        "children": [
+          "flex-layout.col#home-videos"
+        ]
+      },
+    
+      "flex-layout.col#home-videos": {
+        "props": {
+          "blockClass":[
+            "home-promos"
+          ],
+          "width":"100%"
+        },
+        "children": [
+          "rich-text#home__videos--title",
+          "flex-layout.row#promos__images--6"
+        ]
+      },
+    
+      "rich-text#home__videos--title": {
+        "title": "home videos title",
+        "props": {
+          "text": "easy donde se renueva tu hogar",
+          "textAlignment": "CENTER",
+          "textPosition": "LEFT",
+          "blockClass":[
+            "promo-title"
+          ]
+        }
+      },
+    
+      "flex-layout.row#promos__images--6":{
+        "props": {
+          "fullWidth": true,
+          "colSizing": "auto"
+        },
+        "children": [
+          "image#video__1",
+          "image#video__2",
+          "image#video__3"
+        ]
+      },
+    
+      "image#video__1":{
+        "props": {
+          "blockClass":[
+            "home-promo",
+            "left-side"
+          ],
+          "src": "assets/home/videos/tiendas_renovadas-17879.webp",
+          "link": {
+            "openNewTab": false,
+            "title": "",
+            "url": "https://youtu.be/R72OB4VbMYM"
+          }
+        }
+      },
+    
+      "image#video__2":{
+        "props": {
+          "blockClass":[
+            "home-promo",
+            "left-side"
+          ],
+          "src": "assets/home/videos/cocina_renovada-17880.webp",
+          "link": {
+            "openNewTab": false,
+            "title": "",
+            "url": "https://youtu.be/39-mv3ldDm8"
+          }
+        }
+      },
+    
+      "image#video__3":{
+        "props": {
+          "blockClass":[
+            "home-promo",
+            "right-side"
+          ],
+          "src": "assets/home/videos/espacios_felices-17881.webp",
+          "link": {
+            "openNewTab": false,
+            "title": "",
+            "url": "https://youtu.be/_ccXLBLIAXo"
+          }
+        }
+      }
+}

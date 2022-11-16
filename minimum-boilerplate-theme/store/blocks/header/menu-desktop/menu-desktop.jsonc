@@ -1,0 +1,54 @@
+{
+    "menu#categorias":{
+        "children":[
+          "menu-item#categorias"
+        ]
+          
+      },
+
+    "menu-item#categorias": {
+        "blocks": [
+            "submenu#categorias"
+        ],
+        "props": {
+          "type": "custom",
+          "blockClass": [
+            "categorias"
+          ],
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "tagTitle": "Categorías",
+            "text": "Categorías"
+          }
+        }
+      },
+
+      "submenu#categorias":{
+        "children":[
+            "menu#submenu-categorias"
+        ]
+      },
+
+      "menu#submenu-categorias":{
+        "children":[
+            "menu-item#muebles"
+        ]
+      },
+
+      "menu-item#muebles":{
+        "props": {
+            "type": "custom",
+            "blockClass": [
+              "menu-title"
+            ],
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "tagTitle": "Muebles",
+              "text": "Muebles"
+            }
+          }
+
+      }
+}

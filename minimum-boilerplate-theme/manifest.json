@@ -1,6 +1,6 @@
 {
   "vendor": "vtex",
-  "name": "minimumtheme",
+  "name": "minimum-theme",
   "version": "0.1.1",
   "builders": {
     "styles": "2.x",
@@ -46,7 +46,25 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
-    "vtex.builder-hub": "0.285.4"
+    "vtex.builder-hub": "0.285.4",
+    "vtex.store-image": "0.x",
+    "vtex.condition-layout": "2.x",
+    "vtex.product-specifications": "1.x",
+    "vtex.product-bookmark-interfaces": "1.x",
+    "vtex.product-price": "1.x",
+    "vtex.product-customizer": "2.x",
+    "vtex.product-gifts": "0.x",
+    "vtex.store-icons": "0.x",
+    "vtex.product-highlights": "2.x",
+    "vtex.search": "2.x",
+    "vtex.modal-layout": "0.x",
+    "itgloberspartnercl.whatsapp-button": "0.x",
+    "itgloberspartnercl.bullets-diagramation": "0.x",
+    "itgloberspartnercl.add-to-cart-info": "0.x",
+    "itgloberspartnercl.custom-department-search": "0.x",
+    "itgloberspartnercl.pdf-reader": "0.x",
+    "itgloberspartnercl.quick-order": "0.x",
+    "itgloberspartnercl.special-diagramation": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

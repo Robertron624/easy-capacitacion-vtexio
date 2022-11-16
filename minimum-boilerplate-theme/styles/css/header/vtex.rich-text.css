@@ -1,0 +1,23 @@
+.link{
+    text-decoration: none;
+    font-family: "Work-Sans", sans-serif;
+}
+
+.link--menu-link{
+    font-size: calc(13px + (14 - 13) * ((100vw - 300px)/ (1500 - 300)));
+    color: black;
+}
+
+.link--menu-link:hover{
+    color: #dc2415;
+}
+
+.image--menu-link{
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+}
+
+.paragraph{
+    display: flex;
+}

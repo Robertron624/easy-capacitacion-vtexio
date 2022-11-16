@@ -1,0 +1,20 @@
+{
+    "store.custom#biosecurity":{
+        "blocks": [
+            "flex-layout.row#biosecurity"
+        ]
+    },
+
+    "flex-layout.row#biosecurity": {
+        "props": {
+            "fullWidth": true
+        }
+    },
+
+    "image#biosecurity": {
+        "title": "Biosecurity landing image",
+        "props": {
+            "src": "assets/custom/landing biosegur .jpg"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.flexRowContent--home-combos,
+.flexRow--home-promos{
+    padding: 0 2%;
+}
+
+.flexColChild--promise-col{
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--image-promises{
+    justify-content: space-evenly;
+}

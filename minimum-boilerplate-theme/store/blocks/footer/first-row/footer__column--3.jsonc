@@ -1,0 +1,111 @@
+{
+  "flex-layout.col#footer__row--1--column--3":{
+      "title": "Politics column",
+      "props": {
+        "blockClass":[
+          "footer__column"
+        ]
+      },
+      "children": [
+        "rich-text#politics__column--title",
+        "rich-text#politics__column--faq",
+        "rich-text#politics__column--refunds",
+        "rich-text#politics__column--terms-condtions",
+        "rich-text#politics__column--rules",
+        "rich-text#politics__column--data-protection",
+        "rich-text#politics__column--cookies",
+        "rich-text#politics__column--sitemap",
+        "rich-text#politics__column--sic"        
+      ]
+    },
+
+    "rich-text#politics__column--title": {
+      "title": "Politics column title",
+      "props": {
+        "text": "Políticas",
+        "blockClass":[
+          "footer-title"
+        ]
+      }
+    },
+
+    "rich-text#politics__column--faq": {
+      "title": "FAQ",
+      "props": {
+        "text": "[Preguntas Frecuentes](/#)",
+        "blockClass":[
+          "footer-link"
+        ]
+      }
+    },
+
+    "rich-text#politics__column--refunds": {
+      "title": "Refunds",
+      "props": {
+        "text": "[Cambios y devoluciones](/#)",
+        "blockClass":[
+          "footer-link"
+        ]
+      }
+    },
+
+    "rich-text#politics__column--terms-condtions": {
+      "title": "Terms and conditions",
+      "props": {
+        "text": "[Términos y Condiciones](/#)",
+        "blockClass":[
+          "footer-link"
+        ]
+      }
+    },
+
+    "rich-text#politics__column--rules": {
+      "title": "Rules",
+      "props": {
+        "text": "[Reglamento](/#)",
+        "blockClass":[
+          "footer-link"
+        ]
+      }
+    },
+
+    "rich-text#politics__column--data-protection": {
+      "title": "Data protection",
+      "props": {
+        "text": "[Protección de Datos](/#)",
+        "blockClass":[
+          "footer-link"
+        ]
+      }
+    },
+
+    "rich-text#politics__column--cookies": {
+      "title": "Cookies policies",
+      "props": {
+        "text": "[Políticas de Cookies](/#)",
+        "blockClass":[
+          "footer-link"
+        ]
+      }
+    },
+
+    "rich-text#politics__column--sitemap": {
+      "title": "Site map",
+      "props": {
+        "text": "[Mapa del sitio](/#)",
+        "blockClass":[
+          "footer-link"
+        ]
+      }
+    },
+
+    "rich-text#politics__column--sic": {
+      "title": "SIC",
+      "props": {
+        "text": "[Superintendencia de Industria y Comercio - SIC](/#)",
+        "blockClass":[
+          "footer-link"
+        ]
+      }
+    }
+}
