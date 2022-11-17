@@ -1,319 +1,298 @@
 {
-    "header-layout.desktop": {
-        "children": [
-          "flex-layout.row#top-banner",
-          "flex-layout.row#top-header",
-          "flex-layout.row#content-header",
-          "department-search",
-          "flex-layout.row#menus-header"
-        ]
-      },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#top-banner",
+      "flex-layout.row#content-header",
+      // "department-search",
+      "flex-layout.row#menus-header"
+    ]
+  },
 
-      "flex-layout.row#top-banner": {
-        "title": "Top banner",
-        "children": [
-          "image#top-banner-1"
-        ],
-        "props": {
-          "fullWidth": true,
-          "blockClass": ["top-banner"]
-        }
-      },
-    
-    
-      "image#top-banner-1":{
-        "title": "Top banner image",
-        "props": {
-          "src": "assets/header/banner-superior-venta-telefonica.webp"
-        }
-      },
-  
-      "rich-text": { 
-        "props": { 
-          "text": "VTEX Store Framework",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-1"
-        }
-      },
+  "flex-layout.row#top-banner": {
+    "title": "Top banner",
+    "children": ["image#top-banner-1"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["top-banner"]
+    }
+  },
 
-      "flex-layout.row#top-header": {
-        "title": "Top header row",
-        "props": {
-            "blockClass": "top-header",
-            "fullWidth": true,
-            "colSizing": "auto"
-        },
-        "children": [
-            "login"
-        ]
-      },
+  "image#top-banner-1": {
+    "title": "Top banner image",
+    "props": {
+      "src": "assets/header/banner-superior-venta-telefonica.webp"
+    }
+  },
 
-      // "flex-layout.col#networks": {
-      //   "title": "Networks column",
-      //   "children": [
-      //       "flex-layout.row#networks"
-      //   ]
-      // },
+  "rich-text": {
+    "props": {
+      "text": "VTEX Store Framework",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
 
-      // "flex-layout.row#networks": {
-      //   "title": "Network images row",
-      //   "children": [
-      //       "image#help-center",
-      //       "image#web-assistance",
-      //       "image#stores",
-      //       "image#telephone-sales",
-      //       "image#business-sales",
-      //       "image#expert-world"
-      //   ],
-      //   "props": {
-      //       "blockClass": ["top-banner-redes"],
-      //       "colSizing": "auto"
-      //   }
-      // },
+  // "flex-layout.col#networks": {
+  //   "title": "Networks column",
+  //   "children": [
+  //       "flex-layout.row#networks"
+  //   ]
+  // },
 
-      // "image#help-center": {
-      //   "title": "Help center image",
-      //   "props": {
-      //       "blockClass":[
-      //           "redes"
-      //       ],
-      //       "src": "assets/header/CENTRO_DE_AYUDA.png",
-      //       "link": {
-      //           "openNewTab": true,
-      //           "url": "#"
-      //       },
-      //       "maxWidth": 150
-      //   }
-      // },
+  // "flex-layout.row#networks": {
+  //   "title": "Network images row",
+  //   "children": [
+  //       "image#help-center",
+  //       "image#web-assistance",
+  //       "image#stores",
+  //       "image#telephone-sales",
+  //       "image#business-sales",
+  //       "image#expert-world"
+  //   ],
+  //   "props": {
+  //       "blockClass": ["top-banner-redes"],
+  //       "colSizing": "auto"
+  //   }
+  // },
 
-      // "image#web-assistance": {
-      //   "props": {
-      //       "blockClass":[
-      //           "redes"
-      //       ],
-      //       "src": "assets/header/ASISTENCIA_WEB.png",
-      //       "link": {
-      //           "openNewTab": true,
-      //           "url": "#"
-      //       },
-      //       "maxWidth": 150
-      //   }
-      // },
+  // "image#help-center": {
+  //   "title": "Help center image",
+  //   "props": {
+  //       "blockClass":[
+  //           "redes"
+  //       ],
+  //       "src": "assets/header/CENTRO_DE_AYUDA.png",
+  //       "link": {
+  //           "openNewTab": true,
+  //           "url": "#"
+  //       },
+  //       "maxWidth": 150
+  //   }
+  // },
 
-      // "image#stores": {
-      //   "props": {
-      //       "blockClass":[
-      //           "redes"
-      //       ],
-      //       "src": "assets/header/TIENDAS.png",
-      //       "link": {
-      //           "openNewTab": true,
-      //           "url": "#"
-      //       },
-      //       "maxWidth": 150
-      //   }
-      // },
+  // "image#web-assistance": {
+  //   "props": {
+  //       "blockClass":[
+  //           "redes"
+  //       ],
+  //       "src": "assets/header/ASISTENCIA_WEB.png",
+  //       "link": {
+  //           "openNewTab": true,
+  //           "url": "#"
+  //       },
+  //       "maxWidth": 150
+  //   }
+  // },
 
-      // "image#telephone-sales": {
-      //   "props": {
-      //       "blockClass":[
-      //           "redes"
-      //       ],
-      //       "src": "assets/header/VENTA_TELEFONICA.webp",
-      //       "link": {
-      //           "openNewTab": true,
-      //           "url": "#"
-      //       },
-      //       "maxWidth": 150
-      //   }
-      // },
-      
-      // "image#business-sales": {
-      //   "props": {
-      //       "blockClass":[
-      //           "redes"
-      //       ],
-      //       "src": "assets/header/VENTA_EMPRESA.png",
-      //       "link": {
-      //           "openNewTab": true,
-      //           "url": "#"
-      //       },
-      //       "maxWidth": 150
-      //   }
-      // },
-      
-      // "image#expert-world": {
-      //   "props": {
-      //       "blockClass":[
-      //           "networks"
-      //       ],
-      //       "src": "assets/header/MUNDO_EXPERTO.webp",
-      //       "link": {
-      //           "openNewTab": true,
-      //           "url": "#"
-      //       },
-      //       "maxWidth": 150
-      //   }
-      // },
+  // "image#stores": {
+  //   "props": {
+  //       "blockClass":[
+  //           "redes"
+  //       ],
+  //       "src": "assets/header/TIENDAS.png",
+  //       "link": {
+  //           "openNewTab": true,
+  //           "url": "#"
+  //       },
+  //       "maxWidth": 150
+  //   }
+  // },
 
-      "login": {
-        "props": {
-            "showIconProfile": true,
-            "iconLabel": "Mi cuenta"
-        }
-      },
-    
-      "flex-layout.row#content-header": {
-        "props": {
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "fullWidth": true,
-          "colSizing": "equal"
-        },
-        "children": [
-          "flex-layout.col#logo-desktop",
-          "search-bar",
-          "flex-layout.col#spacer",
-          "minicart.v2"
-        ]
-      },
+  // "image#telephone-sales": {
+  //   "props": {
+  //       "blockClass":[
+  //           "redes"
+  //       ],
+  //       "src": "assets/header/VENTA_TELEFONICA.webp",
+  //       "link": {
+  //           "openNewTab": true,
+  //           "url": "#"
+  //       },
+  //       "maxWidth": 150
+  //   }
+  // },
 
-      "flex-layout.col#spacer": {
-        "props": {
-          "width": "grow"
-        }
-      },
+  // "image#business-sales": {
+  //   "props": {
+  //       "blockClass":[
+  //           "redes"
+  //       ],
+  //       "src": "assets/header/VENTA_EMPRESA.png",
+  //       "link": {
+  //           "openNewTab": true,
+  //           "url": "#"
+  //       },
+  //       "maxWidth": 150
+  //   }
+  // },
 
-      "flex-layout.col#logo-desktop": {
-        "props": {
-          "verticalAlign": "middle"
-        },
-        "children": ["logo"]
-      },
+  // "image#expert-world": {
+  //   "props": {
+  //       "blockClass":[
+  //           "networks"
+  //       ],
+  //       "src": "assets/header/MUNDO_EXPERTO.webp",
+  //       "link": {
+  //           "openNewTab": true,
+  //           "url": "#"
+  //       },
+  //       "maxWidth": 150
+  //   }
+  // },
 
-      "logo": {
-        "props": {
-          "title": "Logo",
-          "href": "/",
-          "url": "assets/header/logo-easy.webp",
-          "width": "100"
-        }
-      },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
+  },
 
-      "search-bar": {
-        "props": {
-          "placeholder": "Busca tu producto"
-        }
-      },
+  "flex-layout.row#content-header": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ]
+  },
 
-      "flex-layout.row#menus-header":{
-        "title": "Menus header",
-        "props": {
-          "fullWidth": true,
-          "blockClass": "menus-header",
-          "colSizing": "auto"
-        },
-        "children": [
-          "flex-layout.col#left-menus",
-          "flex-layout.col#right-menus"
-        ]
-      },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
 
-      "flex-layout.col#left-menus": {
-        "children": [
-          "flex-layout.row#left-menus"
-        ],
-        "props": {
-          "blockClass": [
-            "left-menu"
-          ]
-        }
-      },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
 
-      "flex-layout.row#left-menus": {
-        "props": {
-          "fullWidth": true
-        },
-        "children": [
-          "menu#categorias",
-          "rich-text#link-easy",
-          "rich-text#link-tc-cencosud",
-          "rich-text#link-catalog"
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/header/logo-easy.webp",
+      "width": "100"
+    }
+  },
 
-        ]
-      },
+  "search-bar": {
+    "props": {
+      "placeholder": "Busca tu producto"
+    }
+  },
 
-      "rich-text#link-easy": {
-        "props": {
-          "text": "![easy](assets/header/icon-blog.png)[Hazlo fácil, Hazlo easy](/#)",
-          "blockClass":[
-            "menu-link"
-          ]
-        }
-      },
-      
-      "rich-text#link-tc-cencosud": {
-        "props": {
-          "text": "[Tarjeta Cencosud](/#)",
-          "blockClass":[
-            "menu-link"
-          ]
-        }
-      },
+  "flex-layout.row#menus-header": {
+    "title": "Menus header",
+    "props": {
+      "fullWidth": true,
+      "blockClass": "menus-header",
+      "colSizing": "auto"
+    },
+    "children": ["flex-layout.col#left-menus"]
+  },
 
-      "rich-text#link-catalog": {
-        "props": {
-          "text": "![catalogo](assets/header/icon-catalogo.png)[Catálogo](/#)",
-          "blockClass":[
-            "menu-link"
-          ]
-        }
-      },
+  "flex-layout.col#left-menus": {
+    "children": ["flex-layout.row#left-menus"],
+    "props": {
+      "blockClass": ["left-menu"]
+    }
+  },
 
-      "flex-layout.col#right-menus": {
-        "props": {
-          "blockClass":[
-            "right-menu"
-          ]
-        },
-        "children": [
-          "flex-layout.row#right-menus"
-        ]
-      },
+  "flex-layout.row#left-menus": {
+    "props": {
+      "fullWidth": true,
+      "preventHorizontalStretch": true,
+      "blockClass":[
+        "header-left-menu"
+      ]
+    },
+    "children": [
+      "menu#categorias",
+      "rich-text#link-catalog",
+      "rich-text#telephone-sales",
+      "rich-text#help-center",
+      "rich-text#web-assistance",
+      "rich-text#stores",
+      "rich-text#expert-world",
+      "rich-text#company-sales",
+      "rich-text#blog",
+      "rich-text#services"
+    ]
+  },
 
-      "flex-layout.row#right-menus": {
-        "props": {
-          "fullWidth": true,
-          "colSizing": "auto"
-        },
-        "children": [
-          "image#bio",
-          "image#services"
-        ]
-      },
+  "rich-text#link-catalog": {
+    "props": {
+      "text": "![catalogo](assets/header/icon-catalogo.png)[Catálogo](/#)",
+      "blockClass": ["menu-link"]
+    }
+  },
 
-      "image#bio": {
-        "props": {
-          "src": "assets/header/bioseguridad.webp",
-          "link": {
-            "openNewTab": true,
-            "url": "/biosecurity",
-            "title": "bioseguridad"
-          }
-        }
-      },
+  "rich-text#telephone-sales": {
+    "props": {
+      "text": "![phone](assets/header/icon-venta-telefonica.png)[Venta Telefónica](/#)",
+      "blockClass": ["menu-link"]
+    }
+  },
 
-      "image#services": {
-        "props": {
-          "src": "assets/header/instalaciones.webp",
-          "link": {
-            "openNewTab": true,
-            "url": "/services",
-            "title": "bioseguridad"
-          }
-        }
-      }
+  "rich-text#help-center": {
+    "props": {
+      "text": "![help](assets/header/icon-centro-de-ayuda.png)[Centro de ayuda](/#)",
+      "blockClass": ["menu-link"]
+    }
+  },
+
+  "rich-text#web-assistance": {
+    "props": {
+      "text": "![asistencia](assets/header/icon-asistencia-web.png)[Asistencia Web](/#)",
+      "blockClass": ["menu-link"]
+    }
+  },
+
+  "rich-text#stores": {
+    "props": {
+      "text": "![tiendas](assets/header/icon-tiendas.png)[Tiendas](/#)",
+      "blockClass": ["menu-link"]
+    }
+  },
+
+  "rich-text#expert-world": {
+    "props": {
+      "text": "![Mundo experto](assets/header/icon-mundo-experto.png)[Mundo Experto](/#)",
+      "blockClass": ["menu-link"]
+    }
+  },
+
+  "rich-text#company-sales": {
+    "props": {
+      "text": "![Venta Empresa](assets/header/icon-venta-empresa.png)[Venta Empresa](/#)",
+      "blockClass": ["menu-link"]
+    }
+  },
+
+  "rich-text#blog": {
+    "props": {
+      "text": "![Blog](assets/header/icon-blog.png)[Blog](/#)",
+      "blockClass": ["menu-link"]
+    }
+  },
+
+  "rich-text#services": {
+    "props": {
+      "text": "![Servicios](assets/header/icon-servicios.png)[Servicios](/#)",
+      "blockClass": ["menu-link"]
+    }
+  }
 }

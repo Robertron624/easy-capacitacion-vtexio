@@ -7,7 +7,7 @@
         ]
       },
       "children": [
-        "whatsapp-button",
+        // "whatsapp-button",
         "image#easy__logo",
         "rich-text#easy__slogan",
         "social-networks"

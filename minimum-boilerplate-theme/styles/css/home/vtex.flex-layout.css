@@ -11,3 +11,7 @@
 .flexRowContent--image-promises{
     justify-content: space-evenly;
 }
+
+.flexRow--home__information{
+    padding: 0 2%;
+}

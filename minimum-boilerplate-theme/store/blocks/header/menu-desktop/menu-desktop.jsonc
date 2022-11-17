@@ -13,13 +13,13 @@
         "props": {
           "type": "custom",
           "blockClass": [
-            "categorias"
+            "categories"
           ],
           "itemProps": {
             "type": "internal",
             "href": "#",
-            "tagTitle": "Categorías",
-            "text": "Categorías"
+            "tagTitle": "CATEGORÍAS",
+            "text": "CATEGORÍAS"
           }
         }
       },

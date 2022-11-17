@@ -26,7 +26,11 @@
 .paragraph--promise-title{
     font-size: calc(16px + (22 - 16) * ((100vw - 300px)/ (1500 - 300)))
 }
+
 .paragraph--promise-subtitle{
   color:   #444747;
 }
 
+.container--promises-title{
+    margin-bottom: 2rem;
+}

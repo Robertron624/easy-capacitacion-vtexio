@@ -2,7 +2,7 @@
   "store.home": { 
     "blocks": [
       "flex-layout.row#slider__home",
-      "custom-grid",
+      // "custom-grid",
       // "quick-order",
       // "pdf-reader",
       "flex-layout.row#promotions__1",
@@ -12,7 +12,7 @@
       "flex-layout.row#promotions__4",
       "flex-layout.row#promotions__5",
       "flex-layout.row#home-videos",
-      "flex-layout.row#promises"
+      "flex-layout.row#information-row"
     ]
   },
   "custom-grid":{
@@ -182,8 +182,9 @@
   },
 
   "slider-layout#combos__slider":{
+    "title": "Combos Slider",
     "props": {
-      "fullWidth": true,
+      "fullWidth": false,
       "blockClass":["slider-combos"],
       "showNavigationArrows": "desktopOnly",
       "infinite": true,
@@ -196,6 +197,111 @@
         "tablet": 1,
         "phone": 1
       }
+    }
+  },
+
+  "flex-layout.row#information-row":{
+    "title": "Information row",
+    "children":[
+      "flex-layout.col#information-row"
+    ],
+    "props":{
+      "fullWidth": true,
+      "blockClass":[
+        "home__information"
+      ]
+    }
+  },
+
+  "flex-layout.col#information-row":{
+    "title": "Information col",
+    "children":[
+      "rich-text#information__row--title",
+      "flex-layout.col#information__row--images"
+    ],
+    "props":{
+      "fullWidth": true,
+      "blockClass":[
+        "home__information"
+      ]
+    }
+  },
+
+  "rich-text#information__row--title":{
+    "title": "Information Title",
+    "props":{
+      "text": "Información",
+      "blockClass":[
+        "promo-title"
+      ]
+    }
+  },
+
+  "flex-layout.col#information__row--images":{
+    "title": "Information images",
+    "props":{
+      "fullWidth": true,
+      "blockClass":[
+        "information-images"
+      ]
+    },
+    "children":[
+      "flex-layout.row#information__row--images"
+    ]
+  },
+
+  "flex-layout.row#information__row--images":{
+    "title": "Information images",
+    "props":{
+      "fullWidth": true,
+      "blockClass":[
+        "information-images"
+      ],
+      "preventHorizontalStretch": true
+    },
+    "children":[
+      "image#information__signup",
+      "image#information__B2B",
+      "image#information__expert"
+    ]
+  },
+
+  "image#information__signup":{
+    "props":{
+      "link":{
+        "url":"#",
+        "openNewTab":true
+      },
+      "src":"assets/home/information/registro_factura_electronica-19831.webp",
+      "blockClass":[
+        "home__information--first"
+      ]
+    }
+  },
+
+  "image#information__B2B":{
+    "props":{
+      "link":{
+        "url":"#",
+        "openNewTab":true
+      },
+      "src":"assets/home/information/venta_empresa-19832.webp",
+      "blockClass":[
+        "home__information--second"
+      ]
+    }
+  },
+
+  "image#information__expert":{
+    "props":{
+      "link":{
+        "url":"#",
+        "openNewTab":true
+      },
+      "src":"assets/home/information/mundo_experto-19833.webp",
+      "blockClass":[
+        "home__information--third"
+      ]
     }
   }
 

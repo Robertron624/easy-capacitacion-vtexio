@@ -6,6 +6,7 @@
 .link--menu-link{
     font-size: calc(13px + (14 - 13) * ((100vw - 300px)/ (1500 - 300)));
     color: black;
+    font-style: italic;
 }
 
 .link--menu-link:hover{
@@ -20,4 +21,9 @@
 
 .paragraph{
     display: flex;
+}
+
+.container--menu-link{
+    align-items: center;
+    margin-right: 1rem;
 }

@@ -1,67 +1,63 @@
 {
-    "flex-layout.row#slider__home": {
-      "title": "Main slider container",
-        "props": {
-          "fullWidth": true,
-          "blockClass": "slider-row"
+  "flex-layout.row#slider__home": {
+    "title": "Main slider container",
+    "props": {
+      "fullWidth": true,
+      "blockClass": "slider-row"
+    },
+    "children": ["list-context.image-list#home__slider"]
+  },
+
+  "list-context.image-list#home__slider": {
+    "title": "Slider image list",
+    "children": ["slider-layout#home__slider"],
+
+    "props": {
+      "images": [
+        {
+          "image": "assets/home/slider/descuento_muebles_colchones_fantasia-19787.webp",
+          "description": "promo 1"
         },
-        "children": [
-          "list-context.image-list#home__slider"
-        ]
-      },
-    
-      "list-context.image-list#home__slider": {
-        "title": "Slider image list",
-          "children": [
-            "slider-layout#home__slider"
-          ],
-    
-          "props": {
-            "images": [
-              {
-                  "image": "assets/home/slider/descuento_muebles_colchones_fantasia-19787.webp",
-                  "description": "promo 1"
-              },
-              {
-                "image": "assets/home/slider/descuento_electrodomesticos-19788.webp",
-                "description": "promo 2"
-              },
-              {
-                "image": "assets/home/slider/orange_days_outdoor-19791.webp",
-                "description": "promo 3"
-              },
-              {
-                "image": "assets/home/slider/recurrente_martes_web_puertas_ferreteria-18655.webp",
-                "description": "promo 4"
-              },
-              {
-                "image": "assets/home/slider/catalogo_pinturas-19789.webp",
-                "description": "promo 5"
-              },
-              {
-                "image": "assets/home/slider/recurrente_martes_organizacion_textil_menaje-18657.webp",
-                "description": "promo 6"
-              }
-            ]
-          }
-      },
-    
-      "slider-layout#home__slider": {
-        "title": "Main home slider",
-        "props": {
-          "fullWidth": false,
-          "blockClass":["slider-home"],
-          "showNavigationArrows": "desktopOnly",
-          "infinite": true,
-          "autoplay": {
-            "stopOnHover": true,
-            "timeout": 4000
-          },
-          "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "phone": 1
-          }
+        {
+          "image": "assets/home/slider/descuento_electrodomesticos-19788.webp",
+          "description": "promo 2"
+        },
+        {
+          "image": "assets/home/slider/orange_days_outdoor-19791.webp",
+          "description": "promo 3"
+        },
+        {
+          "image": "assets/home/slider/recurrente_martes_web_puertas_ferreteria-18655.webp",
+          "description": "promo 4"
+        },
+        {
+          "image": "assets/home/slider/catalogo_pinturas-19789.webp",
+          "description": "promo 5"
+        },
+        {
+          "image": "assets/home/slider/recurrente_martes_organizacion_textil_menaje-18657.webp",
+          "description": "promo 6"
         }
+      ]
+    }
+  },
+
+  "slider-layout#home__slider": {
+    "title": "Main home slider",
+    "props": {
+      "fullWidth": false,
+      "blockClass": ["slider-home"],
+      "showNavigationArrows": "desktopOnly",
+      "infinite": true,
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 4000
+      },
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
       }
+    }
+  }
 }

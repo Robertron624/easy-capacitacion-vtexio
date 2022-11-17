@@ -4,7 +4,8 @@
   },
   "footer-layout.desktop": { 
     "children": [
-    "flex-layout.row#bullets",
+    // "flex-layout.row#bullets",
+      "flex-layout.row#promises",
       "flex-layout.row#footer__row--1",
       "flex-layout.row#footer__row--2",
       "flex-layout.row#bottom__footer"
@@ -12,76 +13,77 @@
   },
   "footer-layout.mobile": { 
     "children": [
+      "flex-layout.row#promises",
       "flex-layout.row#footer__row--1",
       "flex-layout.row#footer__row--2",
       "flex-layout.row#bottom__footer"
     ]
   },
 
-  "flex-layout.row#bullets": {
-    "children": [
-        "list-context.bullet-group"
-    ]
-  },
+//   "flex-layout.row#bullets": {
+//     "children": [
+//         "list-context.bullet-group"
+//     ]
+//   },
 
-  "list-context.bullet-group":{
-    "title" : "Mi contexto de lista de bullets",
-    "children": ["slider-layout#bullets-group"],
-    "props":{
-        "bullets" :
-        [
-            {
-                "image" : "assets/bullets/pc-1.jpg",
-                "titleBullet": "Computadores!",
-                "link" :{
-                    "url": "/"
-                }
-            },
-            {
-                "image" : "assets/bullets/prenda-1.jpg",
-                "titleBullet": "Prendas!",
-                "link" :{
-                    "url": "/"
-                }
-            },
-            {
-                "image" : "assets/bullets/prenda-1.jpg",
-                "titleBullet": "Prendas!",
-                "link" :{
-                    "url": "/"
-                }
-            },
-            {
-                "image" : "assets/bullets/prenda-1.jpg",
-                "titleBullet": "Prendas!",
-                "link" :{
-                    "url": "/"
-                }
-            },
-            {
-                "image" : "assets/bullets/prenda-1.jpg",
-                "titleBullet": "Prendas!",
-                "link" :{
-                    "url": "/"
-                }
-            },
-            {
-                "image" : "assets/bullets/prenda-1.jpg",
-                "titleBullet": "Prendas!",
-                "link" :{
-                    "url": "/"
-                }
-            },
-            {
-                "image" : "assets/bullets/prenda-1.jpg",
-                "titleBullet": "Prendas!",
-                "link" :{
-                    "url": "/"
-                }
-            }
-        ]
-    }
-},
+//   "list-context.bullet-group":{
+//     "title" : "Mi contexto de lista de bullets",
+//     "children": ["slider-layout#bullets-group"],
+//     "props":{
+//         "bullets" :
+//         [
+//             {
+//                 "image" : "assets/bullets/pc-1.jpg",
+//                 "titleBullet": "Computadores!",
+//                 "link" :{
+//                     "url": "/"
+//                 }
+//             },
+//             {
+//                 "image" : "assets/bullets/prenda-1.jpg",
+//                 "titleBullet": "Prendas!",
+//                 "link" :{
+//                     "url": "/"
+//                 }
+//             },
+//             {
+//                 "image" : "assets/bullets/prenda-1.jpg",
+//                 "titleBullet": "Prendas!",
+//                 "link" :{
+//                     "url": "/"
+//                 }
+//             },
+//             {
+//                 "image" : "assets/bullets/prenda-1.jpg",
+//                 "titleBullet": "Prendas!",
+//                 "link" :{
+//                     "url": "/"
+//                 }
+//             },
+//             {
+//                 "image" : "assets/bullets/prenda-1.jpg",
+//                 "titleBullet": "Prendas!",
+//                 "link" :{
+//                     "url": "/"
+//                 }
+//             },
+//             {
+//                 "image" : "assets/bullets/prenda-1.jpg",
+//                 "titleBullet": "Prendas!",
+//                 "link" :{
+//                     "url": "/"
+//                 }
+//             },
+//             {
+//                 "image" : "assets/bullets/prenda-1.jpg",
+//                 "titleBullet": "Prendas!",
+//                 "link" :{
+//                     "url": "/"
+//                 }
+//             }
+//         ]
+//     }
+// },
 
 "slider-layout#bullets-group":{
     "props": {
