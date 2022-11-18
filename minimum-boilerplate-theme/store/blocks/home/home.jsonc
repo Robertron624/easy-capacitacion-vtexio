@@ -188,6 +188,7 @@
       "blockClass":["slider-combos"],
       "showNavigationArrows": "desktopOnly",
       "infinite": true,
+      "centerMode": "center",
       "autoplay": {
         "stopOnHover": true,
         "timeout": 4000

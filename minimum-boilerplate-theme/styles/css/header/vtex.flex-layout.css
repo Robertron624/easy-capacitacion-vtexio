@@ -17,3 +17,10 @@
 .flexColChild--right-menu{
     min-width: 17em;
 }
+
+
+/* ------------------------------------------------------ Mobile ----------------------------------------------------------- */
+
+.flexRowContent--main-header-mobile{
+    padding: 0 1rem;
+}

@@ -22,3 +22,17 @@
 .searchIcon{
     color: white;
 }
+
+
+
+
+/* ----------------------------------------------- mobile ---------------------------------------------------*/
+.logoContainer.sizeMobile{
+    padding: 0;
+}
+
+@media screen and (max-width: 768px){
+    .searchBarContainer{
+        width: 23rem;
+    }
+}
